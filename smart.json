@@ -1,0 +1,12 @@
+{
+  "packages": {
+    "famono": {},
+    "famous-components": {},
+    "iron-router": {},
+    "luma-ui": {},
+    "collectionFS": {},
+    "ui-dropped-event": {},
+    "npm": {},
+    "bootstrap3-less": {}
+  }
+}

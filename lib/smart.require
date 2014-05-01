@@ -1,0 +1,32 @@
+{
+	"famous": {
+		"git": "https://github.com/Famous/famous.git"
+	},
+	"famous-polyfills": {
+		"git": "https://github.com/Famous/polyfills.git"
+	},
+	"library": {
+		"git": "https://github.com/raix/library.git"
+	},
+	"colors": {
+		"git": "git://github.com/mrmrs/colors.git"
+	},
+	"path": {
+		"git": "git://github.com/anodynos/node2web_path.git"
+	},
+	"fs": {
+		"git": "git://github.com/matthewp/fs.git"
+	},
+	"http": {
+		"git": "git://github.com/anodynos/node2web_http.git"
+	},
+	"coffee-script": {
+		"git": "git://github.com/jashkenas/coffee-script.git"
+	},
+	"moment": {
+		"git": "git://github.com/moment/moment.git"
+	},
+	"events": {
+		"git": "git://github.com/gburghardt/events.git"
+	}
+}

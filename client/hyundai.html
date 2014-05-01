@@ -1,0 +1,15 @@
+<head>
+  <title>hyundai</title>
+</head>
+
+<body>
+
+</body>
+
+<template name="hyundai">
+  {{#unless fullscreen}}
+  <button class="fsbutton btn btn-default center-block" type="button">FULLSCREEN</button>
+  {{/unless}}
+  <video autoplay src="{{currentMedia.url}}" class="hyundai_vid" id="hyundai_vid"></video>
+
+</template>

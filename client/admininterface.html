@@ -1,0 +1,44 @@
+<template name="admin">
+
+    <div class="panel panel-default pull-right">
+      <div class="panel-heading">Remote Cam</div>
+      <div class="panel-body">
+        <video id="remote" autoplay="autoplay" class="remoteCam"></video>
+      </div>
+    </div>
+
+
+  <div class="jumbotron">
+    <h1>Hyundai Copa 2014</h1>
+    <p>Admin Interface</p>
+  </div>
+  <div class="container">
+    {{> mediauploader}}
+  </div>
+
+</template>
+
+<template name="mediauploader">
+  <form class="dropzone" id="dropzoneform" action="#">
+    <label for="fileselect">Files to upload:</label>
+    <input type="file" id="fileselect" name="fileselect[]" multiple="multiple" />
+    <div id="dropzonediv" class="dropzonediv">
+      <div style="color: gray;"><h4>Drop file to upload</h4></div>
+    </div>
+  </form>
+  {{> contentList}}
+</template>
+
+
+<template name="contentList">
+  <div id="list">
+  {{#each sortedMedia}}
+  <div class="item">
+  URL: <a href="{{this.url}}">{{this.url}}</a>
+  {{#if isCurrentlyPlaying this}}
+  <span class="badge">(playing)</span>
+  {{/if}}
+  </div>
+  {{/each}}
+  </div>
+</template>
