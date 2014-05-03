@@ -358,8 +358,8 @@ if (navigator.webkitGetUserMedia) {
     onFail = onFail || function() {};
 
     options = {
-      video: !! opt.video,
-      audio: !! opt.audio
+      video: opt.video,
+      audio: opt.audio
     };
 
     if (getUserMedia) {

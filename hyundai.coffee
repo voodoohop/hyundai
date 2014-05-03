@@ -21,7 +21,7 @@ if (Meteor.isClient)
     document.documentElement.webkitRequestFullScreen()
     videoPlayer = this.find("#hyundai_vid")
     Meteor.videoPlayer = videoPlayer
-    startStreamingWebcam()
+    startStreamingWebcam("camera")
 
   nextMedia = ->
     Meteor.call("nextMedia", (err,newMedia) ->

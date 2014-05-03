@@ -4,6 +4,7 @@
   position:absolute;
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .remoteCam {
@@ -11,13 +12,18 @@
   height: auto;
 }
 
+.fsbutton {
+  z-index:10;
+}
+
 @import "/packages/bootstrap3-less/bootstrap.import.less";
 
 
-#list div {
+#list .item {
   padding: 10px;
   border: 1px solid #bbb;
   margin: 8px;
   font-weight: bold;
   cursor: move;
-  background: #eee; }
+  background: #eee;
+}

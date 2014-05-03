@@ -9,7 +9,7 @@
 
 UI.registerHelper("mediaStore", ->
   console.log("media:",media)
-  media.find()
+  media.find {}, {sort: {rank: 1}}
 )
 
 @getCurrentPlayingMedia = ->
@@ -35,4 +35,13 @@ if Meteor.isServer
         state.update("media", {$set: {currentPlaying: next}})
         console.log("next media", next)
         return next
-
+      "playMedia": (id) ->
+        medias =  media.find( {}, {sort: {rank: 1}}).fetch()
+        mediaNo = null
+        _.each(medias, (m,i) ->
+          if (m._id == id)
+            mediaNo = i
+        )
+        if (mediaNo?)
+          state.update("media", {$set: {currentPlaying: mediaNo}})
+        return mediaNo

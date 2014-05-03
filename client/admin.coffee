@@ -5,8 +5,9 @@ insertMediaFromEvent = (event) ->
     existing = media.find().fetch()
     if (existing.length > 0)
       orderPos = _.max(existing, (m) -> m.rank)
-    media.insert _.extend({rank:orderPos+1}, file), (err, fileObj) ->
+    media.insert file, (err, fileObj) ->
       console.log(err,fileObj)
+      meteor.update(file._id,{$set:{rank: orderPos+1}})
 
 
 Template.mediauploader.events
@@ -14,6 +15,18 @@ Template.mediauploader.events
     insertMediaFromEvent(event)
   "change #fileselect": (event) ->
     insertMediaFromEvent(event)
+
+
+Template.contentList.events
+  "click .playbtn": (event) ->
+    console.log(this)
+    Meteor.call("playMedia", this._id, (err,res) -> console.log(err,res))
+  "click .removebtn": (event) ->
+    console.log(this)
+    media.remove(this._id)
+    Meteor.setTimeout(->
+      Meteor.call("nextMedia")
+    ,100)
 
 Template.contentList.isCurrentlyPlaying = ->
   console.log("checking if currently playing", this)

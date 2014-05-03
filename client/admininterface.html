@@ -33,11 +33,15 @@
 <template name="contentList">
   <div id="list">
   {{#each sortedMedia}}
-  <div class="item">
+  <div class="item clearfix">
   URL: <a href="{{this.url}}">{{this.url}}</a>
   {{#if isCurrentlyPlaying this}}
   <span class="badge">(playing)</span>
   {{/if}}
+    <div class="btn-group pull-right">
+      <button type="button" class="playbtn btn btn-default"><span class="glyphicon glyphicon-play"></span>Play Now</button>
+      <button type="button" class="removebtn btn btn-default"><span class="glyphicon glyphicon-remove"></span> Delete</button>
+    </div>
   </div>
   {{/each}}
   </div>

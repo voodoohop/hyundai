@@ -7,6 +7,7 @@
     "collectionFS": {},
     "ui-dropped-event": {},
     "npm": {},
-    "bootstrap3-less": {}
+    "bootstrap3-less": {},
+    "streams": {}
   }
 }
