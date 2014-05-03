@@ -9,13 +9,14 @@
       "collectionFS": {},
       "ui-dropped-event": {},
       "npm": {},
-      "bootstrap3-less": {}
+      "bootstrap3-less": {},
+      "streams": {}
     },
     "packages": {
       "famono": {
         "git": "https://github.com/raix/Meteor-famono.git",
-        "tag": "v0.1.8",
-        "commit": "77ae60570a6c2f19f578d9b05c193609edc02fab"
+        "tag": "v0.1.9",
+        "commit": "7a3c1b77b9d18ad76a57bc4298a6af53549ea0bf"
       },
       "famous-components": {
         "git": "https://github.com/gadicc/meteor-famous-components.git",
@@ -29,8 +30,8 @@
       },
       "luma-ui": {
         "git": "https://github.com/lumapictures/meteor-luma-ui.git",
-        "tag": "v0.1.10",
-        "commit": "60144724f46ccdf25806e3e91d7e868c615bea48"
+        "tag": "v0.1.11",
+        "commit": "686b176a9fae45965e92bd5950131c752eb270f9"
       },
       "collectionFS": {
         "git": "https://github.com/CollectionFS/Meteor-CollectionFS.git",
@@ -51,6 +52,11 @@
         "git": "https://github.com/eprochasson/bootstrap3-less",
         "tag": "v0.1.9",
         "commit": "5c812c4d7ce72917a065f0424c3cf54e5ff2d16a"
+      },
+      "streams": {
+        "git": "https://github.com/arunoda/meteor-streams.git",
+        "tag": "v0.1.17",
+        "commit": "9fcbbc9b7bf542827babc92089c19e730892a22f"
       },
       "pince": {
         "git": "https://github.com/mad-eye/pince.git",

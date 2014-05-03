@@ -3,7 +3,7 @@
 
 
 @media = new FS.Collection("media",
-  stores: [new FS.Store.FileSystem("media", {path: "~/media_hyundai"})]
+  stores: [new FS.Store.FileSystem("media")] #, {path: ". /media_hyundai"})]
 );
 
 
@@ -22,6 +22,12 @@ UI.registerHelper("mediaStore", ->
   else
     return null
 
+@setClientAspectRatio = (aspectRatio) ->
+  state.insert({_id:"clientScreen", aspectRatio: aspectRatio}) unless (state.findOne("clientScreen"))
+  state.update("clientScreen",{$set:{aspectRatio: aspectRatio}})
+
+@getClientAspectRatio = ->
+  state.findOne("clientScreen")?.aspectRatio
 
 if Meteor.isServer
 

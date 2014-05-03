@@ -7,10 +7,12 @@
 </body>
 
 <template name="hyundai">
+  {{#unless inAdminPanel}}
   {{#unless fullscreen}}
   <button class="fsbutton btn btn-default center-block" type="button">FULLSCREEN</button>
   {{/unless}}
-  <video autoplay class="hyundai_vid" id="camera"></video>
-  <video autoplay src="{{currentMedia.url}}" class="hyundai_vid" id="hyundai_vid"></video>
+  {{/unless}}
+  <video autoplay="autoplay" class="vid" id="camera"></video>
+  <video autoplay src="{{currentMedia.url}}" class="vid" id="hyundai_vid"></video>
 
 </template>

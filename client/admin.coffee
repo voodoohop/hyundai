@@ -5,9 +5,11 @@ insertMediaFromEvent = (event) ->
     existing = media.find().fetch()
     if (existing.length > 0)
       orderPos = _.max(existing, (m) -> m.rank)
+
     media.insert file, (err, fileObj) ->
+      #Session.set("uploading")
       console.log(err,fileObj)
-      meteor.update(file._id,{$set:{rank: orderPos+1}})
+      media.update(file._id,{$set:{rank: orderPos+1}})
 
 
 Template.mediauploader.events
@@ -26,15 +28,17 @@ Template.contentList.events
     media.remove(this._id)
     Meteor.setTimeout(->
       Meteor.call("nextMedia")
-    ,100)
+    ,250)
 
 Template.contentList.isCurrentlyPlaying = ->
   console.log("checking if currently playing", this)
   return (getCurrentPlayingMedia()?._id == this?._id)
 
 Template.admin.rendered = ->
-  attachRemoteCamToVideoElement("remote")
+  #attachRemoteCamToVideoElement("remote")
 
+Template.admin.remoteViewWidth = -> 300
+Template.admin.remoteViewHeight = -> 300/getClientAspectRatio()
 
 
 Template.contentList.sortedMedia = ->

@@ -1,16 +1,18 @@
 <template name="admin">
 
     <div class="panel panel-default pull-right">
-      <div class="panel-heading">Remote Cam</div>
-      <div class="panel-body">
-        <video id="remote" autoplay="autoplay" class="remoteCam"></video>
+      <div class="panel-heading">Remote</div>
+      <div class="panel-body"><div style="width: {{remoteViewWidth}}px; height:{{remoteViewHeight}}px; position: relative; overflow:hidden;">
+       <!-- <video id="remote" autoplay="autoplay" class="remoteCam"></video> -->
+        {{>hyundai inAdminPanel="true"}}
+      </div>
       </div>
     </div>
 
 
   <div class="jumbotron">
     <h1>Hyundai Copa 2014</h1>
-    <p>Admin Interface</p>
+    <p>AR Admin Interface - <i>Conception</i></p>
   </div>
   <div class="container">
     {{> mediauploader}}
@@ -22,9 +24,11 @@
   <form class="dropzone" id="dropzoneform" action="#">
     <label for="fileselect">Files to upload:</label>
     <input type="file" id="fileselect" name="fileselect[]" multiple="multiple" />
+    <!--
     <div id="dropzonediv" class="dropzonediv">
       <div style="color: gray;"><h4>Drop file to upload</h4></div>
     </div>
+    -->
   </form>
   {{> contentList}}
 </template>
@@ -34,15 +38,22 @@
   <div id="list">
   {{#each sortedMedia}}
   <div class="item clearfix">
-  URL: <a href="{{this.url}}">{{this.url}}</a>
-  {{#if isCurrentlyPlaying this}}
-  <span class="badge">(playing)</span>
+  URL: <a href="{{this.url}}">{{this.name}}</a>
+  {{#if isUploaded}}
+    {{#if isCurrentlyPlaying this}}
+    <span class="badge">(playing)</span>
+    {{/if}}
+      <div class="btn-group pull-right">
+        <button type="button" class="playbtn btn btn-default"><span class="glyphicon glyphicon-play"></span>Play Now</button>
+        <button type="button" class="removebtn btn btn-default"><span class="glyphicon glyphicon-remove"></span> Delete</button>
+      </div>
+
+  {{else}}
+     <span class="bg-warning text-warning"> uploading... </span>
+
+    <button type="button" class="removebtn btn btn-default pull-right"><span class="glyphicon glyphicon-remove"></span> cancel</button>
   {{/if}}
-    <div class="btn-group pull-right">
-      <button type="button" class="playbtn btn btn-default"><span class="glyphicon glyphicon-play"></span>Play Now</button>
-      <button type="button" class="removebtn btn btn-default"><span class="glyphicon glyphicon-remove"></span> Delete</button>
-    </div>
   </div>
-  {{/each}}
+    {{/each}}
   </div>
 </template>

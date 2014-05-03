@@ -10,7 +10,6 @@ if (Meteor.isClient)
 
   videoPlayer = null
 
-
   Meteor.startup ->
     Session.set("isFullscreen", document.webkitFullscreenElement?)
 
@@ -18,19 +17,28 @@ if (Meteor.isClient)
   Session.set("playingMedia",null)
 
   Template.hyundai.rendered = ->
-    document.documentElement.webkitRequestFullScreen()
+    console.log("hyundai rendered",this)
     videoPlayer = this.find("#hyundai_vid")
     Meteor.videoPlayer = videoPlayer
-    startStreamingWebcam("camera")
-
+    if this.data?.inAdminPanel
+      Meteor.defer ->
+        attachRemoteCamToVideoElement("camera")
+    else
+      document.documentElement.webkitRequestFullScreen()
+      startStreamingWebcam("camera")
+      setClientAspectRatio($(window).width() / $(window).height())
   nextMedia = ->
     Meteor.call("nextMedia", (err,newMedia) ->
       console.log("media loaded",err,newMedia)
+#      Meteor.setTimeout(
+#        videoPlayer?.load?()
+#      ,200)
     )
   Template.hyundai.events
     "click .fsbutton": ->
       document.documentElement.webkitRequestFullScreen()
-    "ended .hyundai_vid": ->
+
+    "ended #hyundai_vid": ->
       console.log("ended")
       nextMedia()
 
