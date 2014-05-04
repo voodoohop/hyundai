@@ -1,5 +1,4 @@
 
-@state = new Meteor.Collection("state")
 
 
 @media = new FS.Collection("media",
@@ -7,14 +6,11 @@
 );
 
 
-UI.registerHelper("mediaStore", ->
-  console.log("media:",media)
-  media.find {}, {sort: {rank: 1}}
-)
-
 @getCurrentPlayingMedia = ->
-  mediaNo = state.findOne("media")?.currentPlaying
-  console.log("current media no:"+mediaNo)
+
+  #console.log("media state", getState("media"))
+  mediaNo = getState("media")?.currentPlaying
+  #console.log("current media no:"+mediaNo)
   if (mediaNo?)
     res =   media.find({}, {sort: {rank: 1}}).fetch()[mediaNo]
     console.log("currentMedia",res)
@@ -22,23 +18,31 @@ UI.registerHelper("mediaStore", ->
   else
     return null
 
-@setClientAspectRatio = (aspectRatio) ->
-  state.insert({_id:"clientScreen", aspectRatio: aspectRatio}) unless (state.findOne("clientScreen"))
-  state.update("clientScreen",{$set:{aspectRatio: aspectRatio}})
 
-@getClientAspectRatio = ->
-  state.findOne("clientScreen")?.aspectRatio
+if Meteor.isClient
+  @mediaSubscription = Meteor.subscribe "media"
+  UI.registerHelper("mediaStore", ->
+    #console.log("media:",media)
+    media.find {}, {sort: {rank: 1}}
+  )
 
 if Meteor.isServer
+  Meteor.publish("media",-> media.find({}))
 
-  Meteor.startup ->
+  media.allow (
+    insert: -> true
+    update: -> true
+    remove: -> true
+  )
 
-    state.insert({_id: "media", currentPlaying: 0}) unless (state.findOne("media"))
+  setState("media", {currentPlaying: 0}) unless getState("media")
+
+Meteor.startup ->
 
     Meteor.methods
       "nextMedia": ->
-        next = (state.findOne("media").currentPlaying+1) % media.find().count()
-        state.update("media", {$set: {currentPlaying: next}})
+        next = (getState("media").currentPlaying+1) % media.find().count()
+        setState("media", {currentPlaying: next})
         console.log("next media", next)
         return next
       "playMedia": (id) ->
@@ -49,5 +53,5 @@ if Meteor.isServer
             mediaNo = i
         )
         if (mediaNo?)
-          state.update("media", {$set: {currentPlaying: mediaNo}})
+          setState("media", {currentPlaying: mediaNo})
         return mediaNo

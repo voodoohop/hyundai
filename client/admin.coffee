@@ -56,6 +56,14 @@ SimpleRationalRanks =
   afterLast: (lastRank) ->
     lastRank + 1
 
+
+Template.admin.enabledStreaming = ->
+  getState("media").adminRemoteViewEnabled
+
+Template.admin.events
+  "click .startstreamingbtn": ->
+    setState("media",{ adminRemoteViewEnabled: ! getState("media").adminRemoteViewEnabled })
+
 Template.contentList.rendered = ->
   # uses the 'sortable' interaction from jquery ui
   $(@find("#list")).sortable stop: (event, ui) -> # fired when an item is dropped

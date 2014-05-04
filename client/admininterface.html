@@ -1,12 +1,19 @@
 <template name="admin">
 
     <div class="panel panel-default pull-right">
-      <div class="panel-heading">Remote</div>
-      <div class="panel-body"><div style="width: {{remoteViewWidth}}px; height:{{remoteViewHeight}}px; position: relative; overflow:hidden;">
-       <!-- <video id="remote" autoplay="autoplay" class="remoteCam"></video> -->
+      <div class="panel-heading">
+        Remote View
+        <button type="button" class="btn btn-default startstreamingbtn">
+        {{#if enabledStreaming}}Disable{{else}}Enable{{/if}}
+      </button>
+      </div>
+      {{#if enabledStreaming}}
+      <div class="panel-body">
+      <div style="width: {{remoteViewWidth}}px; height:{{remoteViewHeight}}px; position: relative; overflow:hidden;">
         {{>hyundai inAdminPanel="true"}}
       </div>
       </div>
+      {{/if}}
     </div>
 
 

@@ -14,6 +14,11 @@ if (Meteor.isClient)
 #          minHeight: 720
     , (stream) ->
       rtc.attachStream(stream,element) if element
+
+  @stopStreamingWebcam = (element =null) ->
+    #nothing yet
+    return false
+
   @attachRemoteCamToVideoElement = (elementId) ->
     rtc.on('add remote stream', (stream) ->
       console.log("remote stream", stream, elementId)
