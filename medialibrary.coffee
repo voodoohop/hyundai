@@ -19,7 +19,9 @@
   #console.log("media state", getState("media"))
   mediaId = getState("media")?.currentPlaying
   if (!mediaId?)
-    first = getOrderedMedias().fetch()[0]._id
+    medias = getOrderedMedias().fetch()
+    return null if medias.length ==0
+    first = medias[0]._id
     setState("media", {currentPlaying: first ? null})
     mediaId = first
   #console.log("current media no:"+mediaNo)
