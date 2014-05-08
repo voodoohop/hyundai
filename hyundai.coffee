@@ -3,94 +3,50 @@
 if (Meteor.isClient)
 
   Router.map ->
+    this.route("mediacalibrator",
+      path: "/calibrate/:id"
+      waitOn: ->
+        [stateSubscription, mediaSubscription, bgImageSubscription]
+      action: ->
+        this.render() if this.ready()
+      data: ->
+        {media: media.findOne(this.params.id)}
+
+    )
     this.route("admin",
       path: "/admin"
       waitOn: ->
-        [stateSubscription, mediaSubscription]
+        [stateSubscription, mediaSubscription, bgImageSubscription]
       action: ->
         this.render() if this.ready()
+      data: ->
+        {medias: getOrderedMedias(false), currentPlaying: getCurrentPlayingMedia(), bgImages: bgImages.find()}
     )
-    this.route("hyundai",
+    this.route("hyundaiDisplay",
       path: "/"
       waitOn: ->
-        [stateSubscription, mediaSubscription]
+        [stateSubscription, mediaSubscription, bgImageSubscription]
       action: ->
         console.log("hyundai route subscribe data ready", this.ready())
         this.render() if this.ready()
+      data: ->
+        {media: getCurrentPlayingMedia()}
     )
 
-  videoPlayer = null
 
   Meteor.startup ->
     Session.set("isFullscreen", document.webkitFullscreenElement?)
 
 
-  Session.set("playingMedia",null)
-
-  #loadMedia = (media) ->
-  #  videoPlayer.src = media.url()
-
-
-  Template.hyundai.rendered = ->
-    console.log("hyundai rendered",this)
-    videoPlayer = this.find("#hyundai_vid")
-
-    Meteor.videoPlayer = videoPlayer
-    console.log("setting video player source")
-    #console.log("getCurrentPlayingMedia",getCurrentPlayingMedia())
-    #loadMedia(getCurrentPlayingMedia())
-
-    if this.data?.inAdminPanel
-      Meteor.defer ->
-        attachRemoteCamToVideoElement("camera")
-    else
-      document.documentElement.webkitRequestFullScreen()
-      startStreamingWebcam("camera")
-#      Deps.autorun ->
-#        if (getState("media").adminRemoteViewEnabled)
-#          startStreamingWebcam("camera")
-#        else
-#          stopStreamingWebcam("camera")
-      setClientAspectRatio($(window).width() / $(window).height())
-
-    lastVideoURL = null
-    Deps.autorun ->
-      videoURL = getCurrentPlayingMedia().url()
-      if (lastVideoURL != videoURL)
-        lastVideoURL = videoURL
-        console.log("playing video at URL:",videoURL)
-        videoPlayer.src = videoURL+"?noCache="+ _.random(0,100000)
-
-        videoPlayer.load()
-        videoPlayer.play()
-
-
-  nextMedia = ->
-    Meteor.call("nextMedia", (err,newMedia) ->
-      console.log("media loaded",err,newMedia)
-
-#      Meteor.setTimeout(
-#        videoPlayer?.load?()
-#      ,200)
-    )
-  Template.hyundai.events
+  Template.hyundaiDisplay.events
     "click .fsbutton": ->
       document.documentElement.webkitRequestFullScreen()
 
-    "ended #hyundai_vid": ->
-      console.log("ended")
-      nextMedia()
 
-    "timeupdate .hyundai_vid": (e)->
-      #console.log("timeupdate",e)
 
-  Template.hyundai.fullscreen = -> Session.get("isFullscreen")
+  Template.hyundaiDisplay.fullscreen = -> Session.get("isFullscreen")
 
-  Template.hyundai.media = ->
-    media.find()
-  Template.hyundai.currentMedia = ->
-    #console.log("current playing media res",getCurrentPlayingMedia())
-   getCurrentPlayingMedia()
+
 
   document.onwebkitfullscreenchange = (event) ->
     Session.set("isFullscreen", document.webkitFullscreenElement?)

@@ -19,9 +19,14 @@ if (Meteor.isClient)
     #nothing yet
     return false
 
+  previousStream = null
   @attachRemoteCamToVideoElement = (elementId) ->
+    if previousStream?
+      rtc.attachStream(previousStream, elementId);
+      return
     rtc.on('add remote stream', (stream) ->
       console.log("remote stream", stream, elementId)
       rtc.attachStream(stream, elementId);
+      previousStream = stream;
     )
     rtc.fire("ready")

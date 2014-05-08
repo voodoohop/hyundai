@@ -1,7 +1,7 @@
 
 broadcastStream = new Meteor.Stream("hyundai_broadcast_stream")
 
-state = new Meteor.Collection("state")
+@state = new Meteor.Collection("state")
 
 if (Meteor.isServer)
   Meteor.publish("state", -> state.find())
@@ -42,9 +42,13 @@ if Meteor.isClient
     console.log("inserting into state", {_id:category}, props)
     state.insert(_.extend({_id: category},props))
 
-@setClientAspectRatio = (aspectRatio) ->
-  state.insert({_id:"clientScreen", aspectRatio: aspectRatio}) unless (state.findOne("clientScreen"))
-  state.update("clientScreen",{$set:{aspectRatio: aspectRatio}})
+@setClientAspectRatio = (width, height) ->
+  screen =
+    aspectRatio: width/height
+    width: width
+    height: height
+  state.insert(_.extend({_id:"clientScreen"}, screen)) unless (state.findOne("clientScreen"))
+  state.update("clientScreen",{$set: screen})
 
 @getClientAspectRatio = ->
   state.findOne("clientScreen")?.aspectRatio
@@ -55,3 +59,9 @@ if Meteor.isClient
 
 @broadcastListen = (category, handler) ->
   broadcastStream.on(category, handler)
+
+if Meteor.isClient
+    UI.registerHelper("clientWidth", ->
+      getState("clientScreen").width
+    )
+    UI.registerHelper("clientHeight", -> getState("clientScreen").height)

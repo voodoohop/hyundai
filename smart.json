@@ -8,6 +8,7 @@
     "ui-dropped-event": {},
     "npm": {},
     "bootstrap3-less": {},
-    "streams": {}
+    "streams": {},
+    "reactive-modal": {}
   }
 }

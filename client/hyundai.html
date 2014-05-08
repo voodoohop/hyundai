@@ -6,24 +6,12 @@
 
 </body>
 
-<template name="hyundai">
-  {{#unless inAdminPanel}}
 
 
+<template name="hyundaiDisplay">
   {{#unless fullscreen}}
-  <button class="fsbutton btn btn-default center-block" type="button">FULLSCREEN</button>
+  <button class="fsbutton btn btn-default center-block" type="button"><span class="glyphicon glyphicon-fullscreen"></span> FULLSCREEN</button>
   {{/unless}}
-  {{/unless}}
-  <video autoplay="autoplay" class="vid" id="camera"></video>
-
-  <video class="vid" id="hyundai_vid"></video>
-
+  {{> mediaDisplay}}
 </template>
 
-
-<template name="videopreload">
-  {{#each media}}
-  <video preload src="{{this.url}}"></video>
-  {{/each}}
-
-</template>

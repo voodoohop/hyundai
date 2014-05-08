@@ -1,10 +1,18 @@
 /* CSS declarations go here */
 
+html, body {
+  width:100%;
+  height:100%;
+  min-height:100%;
+}
+
 .vid {
   position:absolute;
+  left:0px;
+  top:0px;
   width: 100%;
   height: 100%;
-  //object-fit: cover;
+  object-fit: cover;
 }
 
 .remoteCam {
@@ -13,7 +21,7 @@
 }
 
 .fsbutton {
-  z-index:10;
+  z-index:30;
 }
 
 @import "/packages/bootstrap3-less/bootstrap.import.less";
@@ -26,4 +34,25 @@
   font-weight: bold;
   cursor: move;
   background: #eee;
+}
+
+.calibratorContainer {
+  left: 25px;
+  top:25px;
+  position: relative;
+  border: 2px dashed black;
+  video {
+    border: 2px dashed grey;
+  }
+}
+
+#hyundai_vid {
+  height:100%;
+  width:100%;
+  z-index:20;
+}
+
+.vid_centerer {
+  margin-left: auto;
+  margin-right:auto;
 }

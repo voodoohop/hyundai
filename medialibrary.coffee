@@ -3,33 +3,46 @@
 
 @media = new FS.Collection("media",
   stores: [new FS.Store.FileSystem("media")] #, {path: ". /media_hyundai"})]
-);
+)
 
+@bgImages = new FS.Collection("bgimages",
+  stores: [new FS.Store.FileSystem("bgimages")]
+)
+
+
+@getOrderedMedias = (uploadComplete=true) ->
+  condition = if uploadComplete then {uploadedAt: {$exists: true}} else {}
+  media.find(condition, {sort: {rank: 1}})
 
 @getCurrentPlayingMedia = ->
 
   #console.log("media state", getState("media"))
-  mediaNo = getState("media")?.currentPlaying
+  mediaId = getState("media")?.currentPlaying
+  if (!mediaId?)
+    first = getOrderedMedias().fetch()[0]._id
+    setState("media", {currentPlaying: first ? null})
+    mediaId = first
   #console.log("current media no:"+mediaNo)
-  if (mediaNo?)
-    res =   media.find({}, {sort: {rank: 1}}).fetch()[mediaNo]
-    console.log("currentMedia",res)
-    return res
+  if mediaId?
+    return media.findOne(mediaId)
   else
     return null
 
 
 if Meteor.isClient
   @mediaSubscription = Meteor.subscribe "media"
-  UI.registerHelper("mediaStore", ->
-    #console.log("media:",media)
-    media.find {}, {sort: {rank: 1}}
-  )
+  @bgImageSubscription = Meteor.subscribe "bgimages"
 
 if Meteor.isServer
   Meteor.publish("media",-> media.find({}))
+  Meteor.publish("bgimages",-> bgImages.find({}))
 
   media.allow (
+    insert: -> true
+    update: -> true
+    remove: -> true
+  )
+  bgImages.allow (
     insert: -> true
     update: -> true
     remove: -> true
@@ -38,20 +51,22 @@ if Meteor.isServer
   setState("media", {currentPlaying: 0}) unless getState("media")
 
 Meteor.startup ->
-
+  if Meteor.isServer
     Meteor.methods
       "nextMedia": ->
-        next = (getState("media").currentPlaying+1) % media.find().count()
-        setState("media", {currentPlaying: next})
-        console.log("next media", next)
-        return next
-      "playMedia": (id) ->
-        medias =  media.find( {}, {sort: {rank: 1}}).fetch()
-        mediaNo = null
+        medias= getOrderedMedias().fetch()
+        return if medias.length == 0
+        currentId = getState("media").currentPlaying
+        currentNo = -1
         _.each(medias, (m,i) ->
-          if (m._id == id)
-            mediaNo = i
+          if m._id == currentId
+            currentNo = i
         )
-        if (mediaNo?)
-          setState("media", {currentPlaying: mediaNo})
-        return mediaNo
+        next = medias[(currentNo+1) % medias.length]
+        setState("media", {currentPlaying: next._id})
+        console.log("next media", next)
+        return next._id
+      "playMedia": (id) ->
+
+        setState("media", {currentPlaying: id})
+        return id

@@ -1,0 +1,15 @@
+<template name="mediacalibrator">
+  <div class="calibratorContainer" id="calibratorContainer" style="width: {{clientWidth}}px; height: {{clientHeight}}px; position:relative; -webkit-transform-origin: left top; -webkit-transform: {{scaleTransform}}">
+    {{> mediaDisplay media=media loopMedia=true isRemote=true}}
+    <div style="position: absolute; top: 5px; right: 5px;">
+      <button type="button" class="btn btn-lg">
+        {{#if rotateMode}}
+        <span class="glyphicon glyphicon-retweet"></span> Rotate3d
+        {{else}}
+        <span class="glyphicon glyphicon-move"></span> Move/Scale
+        {{/if}}
+      </button>
+    </div>
+  </div>
+</template>
+

@@ -8,9 +8,11 @@
       </button>
       </div>
       {{#if enabledStreaming}}
-      <div class="panel-body">
-      <div style="width: {{remoteViewWidth}}px; height:{{remoteViewHeight}}px; position: relative; overflow:hidden;">
-        {{>hyundai inAdminPanel="true"}}
+      <div class="panel-body" style="padding: 2px">
+      <div style="position: relative; width:100%; height:100%;width:{{remoteViewWidth}}px; height: {{remoteViewHeight}}px; border: 1px dashed black;">
+      <div style="width: {{clientWidth}}px; height: {{clientHeight}}px; position:relative; -webkit-transform-origin: left top; -webkit-transform: {{scaleTransform}}; position: relative; overflow:hidden;">
+        {{> mediaDisplay media=currentPlaying isRemote=true loopMedia=true}}
+      </div>
       </div>
       </div>
       {{/if}}
@@ -22,38 +24,70 @@
     <p>AR Admin Interface - <i>Conception</i></p>
   </div>
   <div class="container">
+    <h3>Media</h3>
+    {{> contentList medias=medias bgImages=bgImages}}
     {{> mediauploader}}
+
+    <h3>Background Images</h3>
+    {{> imagelist images=bgImages}}
+    {{> imageuploader}}
   </div>
 
 </template>
 
 <template name="mediauploader">
   <form class="dropzone" id="dropzoneform" action="#">
-    <label for="fileselect">Files to upload:</label>
+    <label for="fileselect">Upload Video:</label>
     <input type="file" id="fileselect" name="fileselect[]" multiple="multiple" />
-    <!--
-    <div id="dropzonediv" class="dropzonediv">
-      <div style="color: gray;"><h4>Drop file to upload</h4></div>
-    </div>
-    -->
   </form>
-  {{> contentList}}
 </template>
 
+<template name="imageuploader">
+  <form class="dropzone" id="dropzoneform" action="#">
+    <label for="fileselect">Upload Background Image:</label>
+    <input type="file" id="fileselect" name="fileselect[]" multiple="multiple" />
+  </form>
+</template>
+
+<template name="imagelist">
+  <div id="list">
+    {{#each images}}
+      <div class="item clearfix">
+        URL: <a href="{{this.url}}">{{this.name}}</a>
+        {{#if isUploaded}} {{else}}
+        <span class="badge"> uploading ... </span>
+        {{/if}}
+      </div>
+    {{/each}}
+  </div>
+</template>
 
 <template name="contentList">
   <div id="list">
-  {{#each sortedMedia}}
+  {{#each medias}}
   <div class="item clearfix">
   URL: <a href="{{this.url}}">{{this.name}}</a>
   {{#if isUploaded}}
     {{#if isCurrentlyPlaying this}}
     <span class="badge">(playing)</span>
     {{/if}}
-      <div class="btn-group pull-right">
-        <button type="button" class="playbtn btn btn-default"><span class="glyphicon glyphicon-play"></span>Play Now</button>
+    <div style="display:inline-block" class="pull-right">
+      <label>BG Image:<select class="form-control bgImageSelector" style="width: 150px; display: inline-block;">
+        <option>none</option>
+        {{#each ../bgImages}}
+          <option value="{{this._id}}" selected="{{selectedBGImage ../backgroundImage}}">{{name}}</option>
+        {{/each}}
+      </select>
+      </label>
+      <label>
+        Alpha Vid: <input type="checkbox" class="alpha_check" checked="{{isAlpha}}">
+      </label>
+      <div class="btn-group">
+        <button type="button" class="playbtn btn btn-default"><span class="glyphicon glyphicon-play"></span> Play Now</button>
+        <a href="/calibrate/{{this._id}}" class="calibratebtn btn btn-default"><span class="glyphicon glyphicon-cog"></span> Calibrate</a>
         <button type="button" class="removebtn btn btn-default"><span class="glyphicon glyphicon-remove"></span> Delete</button>
       </div>
+    </div>
 
   {{else}}
      <span class="bg-warning text-warning"> uploading... </span>
@@ -64,3 +98,5 @@
     {{/each}}
   </div>
 </template>
+
+

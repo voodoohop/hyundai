@@ -1,0 +1,15 @@
+
+
+<template name="mediaDisplay">
+  <div style="position:absolute; left:0px;top:0px;width:100%; height: 100%">
+    <div style="position:relative;width:100%; height: 100%; overflow:hidden" id="clientContainer">
+      {{#if backgroundImage}}
+      <img style="position:absolute;left:0px;top:0px; width:100%; height:100%;" src="{{backgroundImage.url}}">
+      {{/if}}
+      <video autoplay="autoplay" class="vid" id="camera"></video>
+      <div id="video_holder" style="z-index:5; position:relative; width: {{media.mediaWidth}}px; height: {{media.mediaHeight}}px; -webkit-transform: {{csstransforms}}">
+        <video id="hyundai_vid" src={{videoURL}}> </video>
+      </div>
+    </div>
+  </div>
+</template>

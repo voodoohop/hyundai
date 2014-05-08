@@ -10,13 +10,14 @@
       "ui-dropped-event": {},
       "npm": {},
       "bootstrap3-less": {},
-      "streams": {}
+      "streams": {},
+      "reactive-modal": {}
     },
     "packages": {
       "famono": {
         "git": "https://github.com/raix/Meteor-famono.git",
-        "tag": "v0.1.9",
-        "commit": "7a3c1b77b9d18ad76a57bc4298a6af53549ea0bf"
+        "tag": "v0.2.2",
+        "commit": "33439a1a1ba001772a2d2b26db1825875ba64f90"
       },
       "famous-components": {
         "git": "https://github.com/gadicc/meteor-famous-components.git",
@@ -30,8 +31,8 @@
       },
       "luma-ui": {
         "git": "https://github.com/lumapictures/meteor-luma-ui.git",
-        "tag": "v0.1.11",
-        "commit": "686b176a9fae45965e92bd5950131c752eb270f9"
+        "tag": "v0.1.16",
+        "commit": "7e3a5d65854c16abefa64104f5c862a4f3db9dcc"
       },
       "collectionFS": {
         "git": "https://github.com/CollectionFS/Meteor-CollectionFS.git",
@@ -58,6 +59,11 @@
         "tag": "v0.1.17",
         "commit": "9fcbbc9b7bf542827babc92089c19e730892a22f"
       },
+      "reactive-modal": {
+        "git": "https://github.com/pahans/reactive-modal.git",
+        "tag": "v0.1.0",
+        "commit": "7f8f48fed0f2398cc8c7ec81f261fc53da8fc498"
+      },
       "pince": {
         "git": "https://github.com/mad-eye/pince.git",
         "tag": "v0.0.5",
@@ -80,8 +86,8 @@
       },
       "cfs-file": {
         "git": "https://github.com/CollectionFS/Meteor-cfs-file.git",
-        "tag": "v0.1.2",
-        "commit": "61088b38e1267feb44ed67c319d7f7b72886298a"
+        "tag": "v0.1.3",
+        "commit": "d9ba95d58ec9d5de021972a515495b74fe7672f1"
       },
       "cfs-collection": {
         "git": "https://github.com/CollectionFS/Meteor-cfs-collection.git",
@@ -125,8 +131,8 @@
       },
       "numeral": {
         "git": "https://github.com/vsivsi/meteor-numeral.git",
-        "tag": "v0.0.1",
-        "commit": "5542b3e87e55f07ae854e8d1b847b3694d66b986"
+        "tag": "v1.5.3",
+        "commit": "bdc97fc69bee7dadae1fc0f97fa6d9d76a03e73d"
       },
       "data-man": {
         "git": "https://github.com/CollectionFS/Meteor-data-man.git",
