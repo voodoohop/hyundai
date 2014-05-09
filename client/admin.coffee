@@ -43,6 +43,8 @@ Template.contentList.events
     ,250)
   "click .alpha_check": ->
     media.update(this._id, {$set:{isAlpha: !this.isAlpha}})
+  "click .full_height_check": ->
+    media.update(this._id, {$set:{fullHeight: !this.fullHeight}})
 
   "change .bgImageSelector": (event) ->
     bgImgId = event.target.value

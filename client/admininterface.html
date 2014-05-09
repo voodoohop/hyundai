@@ -80,11 +80,14 @@
       </select>
       </label>
       <label>
+        100% Height: <input type="checkbox" class="full_height_check" checked="{{fullHeight}}">
+      </label>
+      <label>
         Alpha Vid: <input type="checkbox" class="alpha_check" checked="{{isAlpha}}">
       </label>
       <div class="btn-group">
         <button type="button" class="playbtn btn btn-default"><span class="glyphicon glyphicon-play"></span> Play Now</button>
-        <a href="/calibrate/{{this._id}}" class="calibratebtn btn btn-default"><span class="glyphicon glyphicon-cog"></span> Calibrate</a>
+        <a href="/calibrate/{{this._id}}" class="calibratebtn btn btn-default" disabled="{{fullHeight}}"><span class="glyphicon glyphicon-cog"></span> Calibrate</a>
         <button type="button" class="removebtn btn btn-default"><span class="glyphicon glyphicon-remove"></span> Delete</button>
       </div>
     </div>

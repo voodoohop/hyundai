@@ -12,16 +12,15 @@ Template.mediaDisplay.rendered = ->
   #loadMedia(getCurrentPlayingMedia())
 
   if this.data.isRemote
-    Meteor.defer ->
-      attachRemoteCamToVideoElement("camera")
+    #Meteor.defer ->
+    #  attachRemoteCamToVideoElement("camera")
   else
+
     document.documentElement.webkitRequestFullScreen()
-    startStreamingWebcam("camera")
+    #startStreamingWebcam("camera")
     setClientAspectRatio($(window).width(),$(window).height())
     $(window).resize ->
       setClientAspectRatio($(window).width(),$(window).height())
-
-  lastVideoURL = null
 
 
 lastVideoURL = null
@@ -50,8 +49,7 @@ Template.mediaDisplay.backgroundImage = ->
   return null unless this.media.backgroundImage
   return bgImages.findOne(this.media.backgroundImage)
 
-Template.mediaDisplay.csstransforms = ->
-  m = this.media
+mediaCssTransforms = (m) ->
   console.log("csstransforms", this)
   return unless m.transform
   transforms =[
@@ -60,8 +58,16 @@ Template.mediaDisplay.csstransforms = ->
     {translate3d: [""+m.transform.translateX.toFixed(3)+"px", ""+m.transform.translateY.toFixed(3)+"px","0px"]}
     {scale3d: [m.transform.scaleX.toFixed(3), m.transform.scaleY.toFixed(3),1]}
   ]
-  return cssTransforms(transforms)
+  return cssTransforms(transforms);
 
+Template.mediaDisplay.csstransforms = ->
+  return mediaCssTransforms(this.media)
+
+Template.mediaDisplay.mediaStyle = ->
+  if (this.media.fullHeight)
+    return "height: 100%; width: auto; margin: auto;"
+  else
+    return "width: #{this.media.mediaWidth}px; height: #{this.media.mediaHeight}px; -webkit-transform: #{mediaCssTransforms this.media}"
 
 Template.mediaDisplay.events
   "ended #hyundai_vid": (e,tmplInst) ->
