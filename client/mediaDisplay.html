@@ -8,7 +8,8 @@
       {{/if}}
       <video autoplay="autoplay" class="vid" id="camera"></video>
       <div id="video_holder" style="z-index:5; position:relative; {{mediaStyle}}">
-        <video id="hyundai_vid" src={{videoURL}}> </video>
+        <video autoplay="autoplay" preload="auto" id="hyundai_vid" class="hyundai_vid" src={{videoURL}}> </video>
+        <video id="next_hyundai_vid" preload="auto" style="visibility: hidden; position: absolute; top: 0px; left: 0px; z-index:-5; " src={{nextVideoURL}}> </video>
       </div>
     </div>
   </div>

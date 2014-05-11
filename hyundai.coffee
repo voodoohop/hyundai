@@ -20,7 +20,7 @@ if (Meteor.isClient)
       action: ->
         this.render() if this.ready()
       data: ->
-        {medias: getOrderedMedias(false), currentPlaying: getCurrentPlayingMedia(), bgImages: bgImages.find()}
+        {medias: getOrderedMedias(false), currentPlaying: getCurrentPlayingMedia(), nextPlaying: getNextPlayingMedia(), bgImages: bgImages.find()}
     )
     this.route("hyundaiDisplay",
       path: "/"
@@ -30,7 +30,7 @@ if (Meteor.isClient)
         console.log("hyundai route subscribe data ready", this.ready())
         this.render() if this.ready()
       data: ->
-        {media: getCurrentPlayingMedia()}
+        {media: getCurrentPlayingMedia(), nextMedia: getNextPlayingMedia()}
     )
 
 

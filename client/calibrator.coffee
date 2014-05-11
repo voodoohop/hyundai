@@ -2,8 +2,8 @@
 
 calcSize = ->
   ar = getClientAspectRatio()
-  w = $(window).width()-50
-  h = $(window).height()-50
+  w = Session.get("windowSize")[0]-50
+  h = Session.get("windowSize")[1]-50
   if (h*ar > w)
     h= w / ar
   else
@@ -11,6 +11,11 @@ calcSize = ->
   return {width:w, height:h}
 
 Template.mediacalibrator.rotateMode = -> Session.get("rotateMode")
+
+Meteor.startup ->
+  (updateWindowSize = -> Session.set("windowSize", [$(window).width(),$(window).height()]))()
+  $(window).resize ->
+    updateWindowSize()
 
 traqball = null
 Template.mediacalibrator.rendered = ->

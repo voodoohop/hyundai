@@ -11,7 +11,7 @@
       <div class="panel-body" style="padding: 2px">
       <div style="position: relative; width:100%; height:100%;width:{{remoteViewWidth}}px; height: {{remoteViewHeight}}px; border: 1px dashed black;">
       <div style="width: {{clientWidth}}px; height: {{clientHeight}}px; position:relative; -webkit-transform-origin: left top; -webkit-transform: {{scaleTransform}}; position: relative; overflow:hidden;">
-        {{> mediaDisplay media=currentPlaying isRemote=true loopMedia=true}}
+        {{> mediaDisplay media=currentPlaying nextMedia=nextPlaying isRemote=true loopMedia=true}}
       </div>
       </div>
       </div>
@@ -24,6 +24,7 @@
     <p>AR Admin Interface - <i>Conception</i></p>
   </div>
   <div class="container">
+    {{> cameraAdmin}}
     <h3>Media</h3>
     {{> contentList medias=medias bgImages=bgImages}}
     {{> mediauploader}}
@@ -35,6 +36,25 @@
 
 </template>
 
+
+<template name="cameraAdmin">
+  <h3>
+    Camera
+
+    {{#if state "camera.enabled"}}
+    <span class="badge"><span class="glyphicon glyphicon-camera"></span></span>
+    {{/if}}
+
+    <button type="button" class="btn btn-default btn-sm cameraEnableButton">
+      {{#if state "camera.enabled"}}
+      <span class="glyphicon glyphicon-remove"></span> Disable
+      {{else}}
+      <span class="glyphicon glyphicon-camera"></span> Enable
+
+      {{/if}}
+    </button>
+ </h3>
+</template>
 <template name="mediauploader">
   <form class="dropzone" id="dropzoneform" action="#">
     <label for="fileselect">Upload Video:</label>

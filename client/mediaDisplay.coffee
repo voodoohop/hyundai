@@ -23,18 +23,18 @@ Template.mediaDisplay.rendered = ->
       setClientAspectRatio($(window).width(),$(window).height())
 
 
-lastVideoURL = null
+Meteor.startup ->
+  Session.set("videosPlayed", 0)
+
 Template.mediaDisplay.videoURL = ->
-  videoURL = this.media.url()
-  if lastVideoURL != videoURL
-    lastVideoURL = videoURL
-    console.log("playing video at URL:",videoURL)
-    Meteor.setTimeout( ->
-      videoPlayer.src = videoURL+"?noCache="+ _.random(0,100000)
-      videoPlayer.load()
-      videoPlayer.play()
-    ,100)
+  videoURL = this.media.url()+"?sequenceNo_forNoCache="+Session.get("videosPlayed")
   return videoURL
+
+Template.mediaDisplay.nextVideoURL = ->
+  nextVideo = if this.loopMedia then this.media else this.nextMedia
+  videoURL = nextVideo.url()+"?sequenceNo_forNoCache="+(Session.get("videosPlayed")+1)
+  return videoURL
+
 
 nextMedia = ->
   Meteor.call("nextMedia", (err,newMedia) ->
@@ -73,10 +73,10 @@ Template.mediaDisplay.events
   "ended #hyundai_vid": (e,tmplInst) ->
     console.log("ended",this,tmplInst)
     if this.loopMedia
-      videoPlayer.load()
-      videoPlayer.play()
+      Session.set("videosPlayed",Session.get("videosPlayed")+1)
     else
       nextMedia()
+      Session.set("videosPlayed",Session.get("videosPlayed")+1)
 
   "loadeddata": () ->
     size = {mediaWidth: videoPlayer.videoWidth, mediaHeight: videoPlayer.videoHeight}

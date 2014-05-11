@@ -30,7 +30,6 @@
   else
     return null
 
-
 if Meteor.isClient
   @mediaSubscription = Meteor.subscribe "media"
   @bgImageSubscription = Meteor.subscribe "bgimages"
@@ -52,19 +51,24 @@ if Meteor.isServer
 
   setState("media", {currentPlaying: 0}) unless getState("media")
 
+@getNextPlayingMedia = ->
+  medias= getOrderedMedias().fetch()
+  return null if medias.length == 0
+  currentId = getState("media").currentPlaying
+  currentNo = -1
+  _.each(medias, (m,i) ->
+    if m._id == currentId
+      currentNo = i
+  )
+  nextMedia = medias[(currentNo+1) % medias.length]
+  return nextMedia
+
 Meteor.startup ->
   if Meteor.isServer
     Meteor.methods
       "nextMedia": ->
-        medias= getOrderedMedias().fetch()
-        return if medias.length == 0
-        currentId = getState("media").currentPlaying
-        currentNo = -1
-        _.each(medias, (m,i) ->
-          if m._id == currentId
-            currentNo = i
-        )
-        next = medias[(currentNo+1) % medias.length]
+        next = getNextPlayingMedia()
+        return null unless next?
         setState("media", {currentPlaying: next._id})
         console.log("next media", next)
         return next._id

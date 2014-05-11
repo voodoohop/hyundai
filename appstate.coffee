@@ -65,3 +65,14 @@ if Meteor.isClient
       getState("clientScreen").width
     )
     UI.registerHelper("clientHeight", -> getState("clientScreen").height)
+    UI.registerHelper("state", (statePath) ->
+      console.log("getting state for", statePath)
+      s = statePath.split(".")
+      category = s.shift()
+      state = getState(category)
+      while s.length > 0
+        return null if ! state?
+        state = state[s.shift()]
+      console.log("got state", state)
+      return state
+    )

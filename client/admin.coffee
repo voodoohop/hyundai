@@ -86,6 +86,10 @@ Template.admin.events
   "click .startstreamingbtn": ->
     setState("media",{ adminRemoteViewEnabled: ! getState("media").adminRemoteViewEnabled })
 
+Template.cameraAdmin.events
+  "click .cameraEnableButton": ->
+    setState("camera", {enabled: !getState("camera")?.enabled})
+
 Template.contentList.rendered = ->
   # uses the 'sortable' interaction from jquery ui
   $(@find("#list")).sortable stop: (event, ui) -> # fired when an item is dropped
