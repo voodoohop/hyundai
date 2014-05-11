@@ -1,4 +1,7 @@
 <template name="mediacalibrator">
+<div class="clearfix">
+  <a href="/admin" class="btn btn-primary btn-lg pull-right" style="margin: 10px"><span class="glyphicon glyphicon-arrow-left"></span> Back</a>
+</div>
   <div class="calibratorContainer" id="calibratorContainer" style="width: {{clientWidth}}px; height: {{clientHeight}}px; position:relative; -webkit-transform-origin: left top; -webkit-transform: {{scaleTransform}}">
     {{> mediaDisplay media=media loopMedia=true isRemote=true}}
     <div style="position: absolute; top: 5px; right: 5px;">

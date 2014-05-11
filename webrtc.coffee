@@ -6,7 +6,12 @@ if (Meteor.isClient)
   console.log("webrtc connecting to ",'ws://'+location.hostname+':8001','hyundai')
   rtc.connect('ws://'+location.hostname+':8011','hyundai');
 
-  @startStreamingWebcam = (element = null) ->
+  previousStream = null
+  @startStreamingWebcam = (element = null, callback = null) ->
+    if previousStream?
+      rtc.attachStream(previousStream,element) if element
+      callback?(element, previousStream)
+      return
     rtc.createStream
       video: true
 #        mandatory:
@@ -14,12 +19,13 @@ if (Meteor.isClient)
 #          minHeight: 720
     , (stream) ->
       rtc.attachStream(stream,element) if element
+      previousStream = stream
+      callback?(element, stream)
 
   @stopStreamingWebcam = (element =null) ->
     #nothing yet
     return false
 
-  previousStream = null
   @attachRemoteCamToVideoElement = (elementId) ->
     if previousStream?
       rtc.attachStream(previousStream, elementId);

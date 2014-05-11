@@ -44,8 +44,8 @@
     {{#if state "camera.enabled"}}
     <span class="badge"><span class="glyphicon glyphicon-camera"></span></span>
     {{/if}}
-
-    <button type="button" class="btn btn-default btn-sm cameraEnableButton">
+  <div class="btn-group btn-group-sm">
+    <button type="button" class="btn btn-default cameraEnableButton">
       {{#if state "camera.enabled"}}
       <span class="glyphicon glyphicon-remove"></span> Disable
       {{else}}
@@ -53,7 +53,12 @@
 
       {{/if}}
     </button>
- </h3>
+    <a href="/calibrate/camera" disabled="{{cameraDisabled}}" class="calibratebtn btn btn-default"><span class="glyphicon glyphicon-cog"></span> Calibrate</a>
+    <label>
+      100% Height: <input type="checkbox" class="full_height_check" checked="{{fullHeight}}">
+    </label>
+  </div>
+  </h3>
 </template>
 <template name="mediauploader">
   <form class="dropzone" id="dropzoneform" action="#">

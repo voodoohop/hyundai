@@ -31,6 +31,10 @@ Template.imageuploader.events
   "change #fileselect": (event) ->
     insertImageFromEvent(event)
 
+Template.cameraAdmin.events
+  "click .full_height_check": ->
+    setState("camera", {fullHeight: !getState("camera")?.fullHeight})
+
 Template.contentList.events
   "click .playbtn": (event) ->
     console.log(this)
@@ -90,6 +94,7 @@ Template.cameraAdmin.events
   "click .cameraEnableButton": ->
     setState("camera", {enabled: !getState("camera")?.enabled})
 
+Template.cameraAdmin.cameraDisabled = -> ! getState("camera")?.enabled
 Template.contentList.rendered = ->
   # uses the 'sortable' interaction from jquery ui
   $(@find("#list")).sortable stop: (event, ui) -> # fired when an item is dropped

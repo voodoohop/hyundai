@@ -26,7 +26,19 @@ Template.mediacalibrator.rendered = ->
   sy=0
   rx=0
   ry=0
-  m = this.data.media
+
+  isCam = this.data.calibrateCamera
+  if isCam
+    m = getState("camera")
+  else
+    m = this.data.media
+
+  saveTransform = (props) ->
+    if isCam
+      setState("camera", props)
+    else
+      media.update(m._id, {$set: props})
+
   t = {}
   if (m.transform)
     console.log("before reading previous tranform data",m)
@@ -38,10 +50,11 @@ Template.mediacalibrator.rendered = ->
     rx = t.rotateX if t.rotateX?
     ry = t.rotateY if t.rotateY?
   else
-    media.update(m._id, {$set: {transform: {translateX: 0, translateY: 0, scaleX: 1, scaleY: 1, rotateX: 0, rotateY: 0}}})
+    saveTransform({transform: {translateX: 0, translateY: 0, scaleX: 1, scaleY: 1, rotateX: 0, rotateY: 0}})
 
   console.log("making draggable",m)
-  interact($("#video_holder")[0]).draggable(
+  interactElement = if isCam then $("#camera_holder")[0] else $("#video_holder")[0]
+  interact(interactElement).draggable(
     onstart: -> console.log("dragstart")
     onend: -> console.log("dragend")
     onmove: (e) ->
@@ -49,15 +62,16 @@ Template.mediacalibrator.rendered = ->
         tx += e.dx/scale
         ty += e.dy/scale
         console.log("updating tx,ty",tx,ty)
-        media.update(m._id, {$set: {"transform.translateX":tx, "transform.translateY":ty}})
+
+        saveTransform({"transform.translateX":tx, "transform.translateY":ty})
       else
         ry += e.dx/5.0
         rx += e.dy/5.0
         console.log("updating rx,ry",rx,ry)
-        media.update(m._id, {$set: {"transform.rotateX": rx, "transform.rotateY": ry}})
+        saveTransform({"transform.rotateX": rx, "transform.rotateY": ry})
 
   )
-  interact($("#video_holder")[0]).resizable(
+  interact(interactElement).resizable(
     onstart: -> console.log("resizestart")
     onend: -> console.log("resizeend")
     onmove: (e) ->
@@ -65,23 +79,14 @@ Template.mediacalibrator.rendered = ->
       sx += e.dx/scale if e.dx
       sy += e.dy/scale if e.dy
       console.log("got new sx,sy,edx,edy",sx,sy, e.dx, e.dy)
-      media.update(m._id, {$set: {"transform.scaleX":(m.mediaWidth+sx)/m.mediaWidth, "transform.scaleY": (m.mediaHeight+sy)/m.mediaHeight}})
+      saveTransform({"transform.scaleX":(m.mediaWidth+sx)/m.mediaWidth, "transform.scaleY": (m.mediaHeight+sy)/m.mediaHeight})
   )
-  #traqball = new Traqball({stage:"video_holder", impulse:false, perspective: 400})
-  #traqball.disable()
 
 Template.mediacalibrator.events
   "click button": ->
     rotateMode = !Session.get("rotateMode")
     Session.set("rotateMode", rotateMode)
-    #if rotateMode
-    #  traqball.activate()
-    #  interact.enableDragging(false)
-    #  interact.enableResizing(false)
-    #else
-    #  traqball.disable()
-    #  interact.enableDragging(true)
-    #  interact.enableResizing(true)
+
 
 Template.mediacalibrator.scaleTransform = ->
   return cssTransforms([{scale3d: [calcSize().width / getState("clientScreen").width, calcSize().height / getState("clientScreen").height,1]}])

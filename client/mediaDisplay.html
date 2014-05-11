@@ -3,14 +3,27 @@
 <template name="mediaDisplay">
   <div style="position:absolute; left:0px;top:0px;width:100%; height: 100%; background-color: black;  ">
     <div style="position:relative;width:100%; height: 100%; overflow:hidden" id="clientContainer">
+      {{#if state "camera.enabled"}}
+      <div style="position: absolute; left:0px; top:0px; z-index: 4; width:100%; height: 100%;">
+      {{#with state "camera"}}
+      <div id="camera_holder" style="z-index:4; position: relative; {{cameraStyle}}">
+        {{> camera isRemote=../isRemote}}
+      </div>
+      {{/with}}
+      </div>
+      {{/if}}
+      {{#if media}}
       {{#if backgroundImage}}
       <img style="position:absolute;left:0px;top:0px; width:100%; height:100%;" src="{{backgroundImage.url}}">
       {{/if}}
-      <video autoplay="autoplay" class="vid" id="camera"></video>
+      <div style="position: absolute; left:0px; top:0px; z-index: 5; width: 100%; height: 100%;">
       <div id="video_holder" style="z-index:5; position:relative; {{mediaStyle}}">
         <video autoplay="autoplay" preload="auto" id="hyundai_vid" class="hyundai_vid" src={{videoURL}}> </video>
         <video id="next_hyundai_vid" preload="auto" style="visibility: hidden; position: absolute; top: 0px; left: 0px; z-index:-5; " src={{nextVideoURL}}> </video>
       </div>
+      </div>
+      {{/if}}
     </div>
   </div>
 </template>
+

@@ -16,8 +16,6 @@ Template.mediaDisplay.rendered = ->
     #  attachRemoteCamToVideoElement("camera")
   else
 
-    document.documentElement.webkitRequestFullScreen()
-    #startStreamingWebcam("camera")
     setClientAspectRatio($(window).width(),$(window).height())
     $(window).resize ->
       setClientAspectRatio($(window).width(),$(window).height())
@@ -69,6 +67,12 @@ Template.mediaDisplay.mediaStyle = ->
   else
     return "width: #{this.media.mediaWidth}px; height: #{this.media.mediaHeight}px; -webkit-transform: #{mediaCssTransforms this.media}"
 
+Template.mediaDisplay.cameraStyle = ->
+  if (this.fullHeight)
+    return "height: 100%; width: auto; margin: auto;"
+  else
+    return "width: #{this.mediaWidth}px; height: #{this.mediaHeight}px; -webkit-transform: #{mediaCssTransforms this}"
+
 Template.mediaDisplay.events
   "ended #hyundai_vid": (e,tmplInst) ->
     console.log("ended",this,tmplInst)
@@ -78,7 +82,7 @@ Template.mediaDisplay.events
       nextMedia()
       Session.set("videosPlayed",Session.get("videosPlayed")+1)
 
-  "loadeddata": () ->
+  "loadeddata #hyundai_vid": () ->
     size = {mediaWidth: videoPlayer.videoWidth, mediaHeight: videoPlayer.videoHeight}
     console.log(this)
 

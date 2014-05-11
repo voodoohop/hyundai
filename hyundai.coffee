@@ -10,7 +10,10 @@ if (Meteor.isClient)
       action: ->
         this.render() if this.ready()
       data: ->
-        {media: media.findOne(this.params.id)}
+        if (this.params.id == "camera")
+          {media: null, calibrateCamera: true}
+        else
+          {media: media.findOne(this.params.id)}
 
     )
     this.route("admin",
@@ -33,9 +36,6 @@ if (Meteor.isClient)
         {media: getCurrentPlayingMedia(), nextMedia: getNextPlayingMedia()}
     )
 
-
-  Meteor.startup ->
-    Session.set("isFullscreen", document.webkitFullscreenElement?)
 
 
   Template.hyundaiDisplay.events
