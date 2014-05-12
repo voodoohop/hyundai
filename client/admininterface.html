@@ -42,22 +42,26 @@
     Camera
 
     {{#if state "camera.enabled"}}
-    <span class="badge"><span class="glyphicon glyphicon-camera"></span></span>
+    <span class="badge"><span class="fui-video"></span></span>
     {{/if}}
   <div class="btn-group btn-group-sm">
     <button type="button" class="btn btn-default cameraEnableButton">
       {{#if state "camera.enabled"}}
       <span class="glyphicon glyphicon-remove"></span> Disable
       {{else}}
-      <span class="glyphicon glyphicon-camera"></span> Enable
+      <span class="fui-video"></span> Enable
 
       {{/if}}
     </button>
     <a href="/calibrate/camera" disabled="{{cameraDisabled}}" class="calibratebtn btn btn-default"><span class="glyphicon glyphicon-cog"></span> Calibrate</a>
-    <label>
-      100% Height: <input type="checkbox" class="full_height_check" checked="{{fullHeight}}">
-    </label>
+
+
   </div>
+    <label class="checkbox"  style="display: inline-block">
+      <input type="checkbox" value="" checked="{{fullHeight}}" class="full_height_check" data-toggle="checkbox"/>
+      Auto Size
+    </label>
+
   </h3>
 </template>
 <template name="mediauploader">
@@ -90,7 +94,7 @@
 <template name="contentList">
   <div id="list">
   {{#each medias}}
-  <div class="item clearfix">
+  <div class="item clearfix {{#if isCurrentlyPlaying this}}palette-sun-flower{{else}}palette-clouds{{/if}}">
   URL: <a href="{{this.url}}">{{this.name}}</a>
   {{#if isUploaded}}
     {{#if isCurrentlyPlaying this}}
@@ -104,17 +108,31 @@
         {{/each}}
       </select>
       </label>
-      <label>
-        100% Height: <input type="checkbox" class="full_height_check" checked="{{fullHeight}}">
+      <label class="checkbox"  style="display: inline-block">
+        <input type="checkbox" value="" checked="{{fullHeight}}" class="full_height_check" data-toggle="checkbox"/>
+        Auto Size
       </label>
-      <label>
-        Alpha Vid: <input type="checkbox" class="alpha_check" checked="{{isAlpha}}">
+      &nbsp;&nbsp;
+      <label class="checkbox"  style="display: inline-block">
+        <input type="checkbox" value="" checked="{{isAlpha}}" class="alpha_check" data-toggle="checkbox"/>
+        AR Vid
       </label>
+      &nbsp;&nbsp;
+
+      <label class="checkbox"  style="display: inline-block">
+        <input type="checkbox" value="" checked="{{usePhoto}}" class="use_photo" data-toggle="checkbox"/>
+        Photo
+      </label>
+      &nbsp;&nbsp;
+
       <div class="btn-group">
-        <button type="button" class="playbtn btn btn-default"><span class="glyphicon glyphicon-play"></span> Play Now</button>
+        <button type="button" class="playbtn btn btn-success"><span class="glyphicon glyphicon-play"></span> Play Now</button>
         <a href="/calibrate/{{this._id}}" class="calibratebtn btn btn-default" disabled="{{fullHeight}}"><span class="glyphicon glyphicon-cog"></span> Calibrate</a>
-        <button type="button" class="removebtn btn btn-default"><span class="glyphicon glyphicon-remove"></span> Delete</button>
+        <button type="button" class="removebtn btn btn-inverse"><span class="glyphicon glyphicon-remove"></span> Delete</button>
       </div>
+
+
+
     </div>
 
   {{else}}
@@ -122,6 +140,14 @@
 
     <button type="button" class="removebtn btn btn-default pull-right"><span class="glyphicon glyphicon-remove"></span> cancel</button>
   {{/if}}
+     {{#if usePhoto}}
+     <div class="form-group">
+       <div class="input-group">
+         <span class="input-group-addon"><span class="fui-time"></span> Photo After</span>
+         <input type="text" class="form-control photo_seconds" style="width: 3em" value="{{photoSeconds }}"/>
+       </div>
+     </div>
+     {{/if}}
   </div>
     {{/each}}
   </div>

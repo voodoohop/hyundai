@@ -45,15 +45,22 @@ Template.contentList.events
     Meteor.setTimeout(->
       Meteor.call("nextMedia")
     ,250)
-  "click .alpha_check": ->
+  "change .alpha_check": ->
     media.update(this._id, {$set:{isAlpha: !this.isAlpha}})
-  "click .full_height_check": ->
+  "change .use_photo": ->
+    media.update(this._id, {$set:{usePhoto: !this.usePhoto}})
+  "change .alpha_check": ->
+    media.update(this._id, {$set:{isAlpha: !this.isAlpha}})
+  "change .full_height_check": ->
     media.update(this._id, {$set:{fullHeight: !this.fullHeight}})
 
   "change .bgImageSelector": (event) ->
     bgImgId = event.target.value
     console.log("selected bgimgid", bgImgId,this)
     media.update(this._id, {$set: {backgroundImage: bgImgId}})
+  "input .photo_seconds": (event) ->
+    console.log(event)
+    media.update(this._id, {$set: {photoSeconds: parseInt(event.target.value)}})
 
 Template.contentList.selectedBGImage = (mediaBGImage) ->
   console.log("selectedBGImage",this,mediaBGImage)
@@ -65,6 +72,7 @@ Template.contentList.isCurrentlyPlaying = ->
 
 Template.admin.rendered = ->
   #attachRemoteCamToVideoElement("remote")
+  this.$(':checkbox').checkbox();
 
 Template.admin.remoteViewWidth = -> 300
 Template.admin.remoteViewHeight = -> 300/getClientAspectRatio()

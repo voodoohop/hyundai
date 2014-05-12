@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="32240ef7-d296-4e09-bb3b-94560fec2ce4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/png/Book.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/png/Calendar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/png/Chat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/png/Clipboard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/png/Compas.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/png/Gift-Box.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/png/Infinity-Loop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/png/Mail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/png/Map.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/png/Pensils.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/png/Pocket.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/png/Retina-Ready.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/png/Toilet-Paper.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/png/Watches.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/demo/browser-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/demo/browser-author.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/demo/browser-pic-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/demo/browser-pic-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/demo/browser-pic-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/demo/browser-pic-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/demo/browser-pic-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/demo/browser-pic-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/demo/browser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/todo/done-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/todo/done.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/exaple-image.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/flat-ui-icons-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/flat-ui-icons-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/flat-ui-icons-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/video/fullscreen-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/video/fullscreen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/demo/html-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/login/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/login/imac-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/login/imac.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-black.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-black.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-black.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-bold.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-bold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-bolditalic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-bolditalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-bolditalic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-italic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-italic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-italic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-light.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-light.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/demo/logo-mask-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/demo/logo-mask.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/footer/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/switch/mask-square.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/switch/mask.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/video/pause-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/video/pause.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/video/play-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/video/play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/video/poster.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/tile/ribbon-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/tile/ribbon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/todo/search-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/todo/search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/todo/todo-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/todo/todo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/demo/video.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/video/volume-full-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/video/volume-full.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/video/volume-off-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/video/volume-off.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/compatibility/application.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/svg/book.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/compatibility/bootstrap-select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/compatibility/bootstrap-switch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/compatibility/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/svg/calendar.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/svg/chat.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/svg/clipboard.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/svg/clocks.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/svg/compas.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/flat-ui-icons-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/flat-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/compatibility/flatui-checkbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/compatibility/flatui-radio.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/svg/gift-box.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/compatibility/jquery-ui-1.10.3.custom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/compatibility/jquery.placeholder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/compatibility/jquery.tagsinput.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/compatibility/jquery.ui.touch-punch.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-bold.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-bolditalic.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-italic.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-light.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/svg/loop.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/svg/mail.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/svg/map.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/svg/paper-bag.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/svg/pencils.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/photo.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/photo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/prettify.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/compatibility/flat-ui-js/google-code-prettify/prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/compatibility/respond.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/svg/retina.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/svg/toilet-paper.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/compatibility/typeahead.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/admin.coffee" afterPath="$PROJECT_DIR$/client/admin.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/admininterface.html" afterPath="$PROJECT_DIR$/client/admininterface.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/camera.html" afterPath="$PROJECT_DIR$/client/camera.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/hyundai.less" afterPath="$PROJECT_DIR$/client/hyundai.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/mediaDisplay.coffee" afterPath="$PROJECT_DIR$/client/mediaDisplay.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/mediaDisplay.html" afterPath="$PROJECT_DIR$/client/mediaDisplay.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webrtc.coffee" afterPath="$PROJECT_DIR$/webrtc.coffee" />
+    </list>
+    <ignored path="hyundai.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/hyundai.html" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399786146173" ignored="false" />
+    <file path="/Dummy.txt" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399885218442" ignored="false" />
+    <file path="$PROJECT_DIR$/../voodoometeor/models/facebook.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1398695344209" ignored="false" />
+    <file path="/facebook.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1398695342509" ignored="false" />
+    <file path="$PROJECT_DIR$/../voodoometeor/models/eventmanager.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399567488829" ignored="false" />
+    <file path="$PROJECT_DIR$/../voodoometeor/client/views/contentgrid/contentitem.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1398692830729" ignored="false" />
+    <file path="/contentitem.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1398692831358" ignored="false" />
+    <file path="$PROJECT_DIR$/../voodoometeor/client/views/contentgrid/contentcommon.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1398903125199" ignored="false" />
+    <file path="$PROJECT_DIR$/../voodoometeor/models/voodoocontent-model.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1398695808201" ignored="false" />
+    <file path="/admininterface.html" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399887300394" ignored="false" />
+    <file path="/hyundai.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399772850110" ignored="false" />
+    <file path="/medialibrary.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399763791874" ignored="false" />
+    <file path="/admin.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399887220842" ignored="false" />
+    <file path="/hyundai.less" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399765111023" ignored="false" />
+    <file path="/mediaServer.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1398931140674" ignored="false" />
+    <file path="/webrtc.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399773874293" ignored="false" />
+    <file path="/packages.json" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1398937228293" ignored="false" />
+    <file path="/webrtc.io.js" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1398948115858" ignored="false" />
+    <file path="/a.dummy" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399875490518" ignored="false" />
+    <file path="/appstate.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399767619398" ignored="false" />
+    <file path="/calibrator.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399775340025" ignored="false" />
+    <file path="/utils.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399388993714" ignored="false" />
+    <file path="$PROJECT_DIR$/../voodoometeor/lib/embedly.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399397858835" ignored="false" />
+    <file path="/embedly.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399397858835" ignored="false" />
+    <file path="/eventmanager.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399567488829" ignored="false" />
+    <file path="$PROJECT_DIR$/../voodoometeor/client/views/widgets/fb_friend_selector.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399404532529" ignored="false" />
+    <file path="/fb_friend_selector.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399404532529" ignored="false" />
+    <file path="$PROJECT_DIR$/../voodoometeor/.ignore/testing_error" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399423955801" ignored="false" />
+    <file path="/mediaDisplay.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399887372152" ignored="false" />
+    <file path="/mediaDisplay.html" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399885110089" ignored="false" />
+    <file path="$PROJECT_DIR$/../voodoometeor/packages/iron-router/.build/npm/node_modules/connect/node_modules/bytes/package.json" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399567223785" ignored="false" />
+    <file path="/eventwidgets.html" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399567499927" ignored="false" />
+    <file path="$PROJECT_DIR$/../voodoometeor/client/views/widgets/eventwidgets.html" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399567499927" ignored="false" />
+    <file path="/README.md" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399576496619" ignored="false" />
+    <file path="/camera.html" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399788543935" ignored="false" />
+    <file path="/camera.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399776346898" ignored="false" />
+    <file path="/calibrator.html" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399772409553" ignored="false" />
+    <file path="/photo.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399887015125" ignored="false" />
+    <file path="/photo.html" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399886654158" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="hyundai" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="camera.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/camera.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="11" selection-start="114" selection-end="114" vertical-scroll-proportion="-1.25">
+              <folding>
+                <marker date="1399788756000" expanded="true" signature="23:113" placeholder="..." />
+                <marker date="1399788756000" expanded="true" signature="75:92" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admininterface.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/admininterface.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="146" column="104" selection-start="5294" selection-end="5294" vertical-scroll-proportion="-6.75">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#h3#0;n#template#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#5;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#label#0;n#div#0;n#div#0;n#div#0;n#template#5;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#1;n#div#0;n#div#0;n#div#0;n#template#5;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#2;n#div#0;n#div#0;n#div#0;n#template#5;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#3;n#div#0;n#div#0;n#div#0;n#template#5;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#5;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mediaDisplay.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/mediaDisplay.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="9" selection-start="1335" selection-end="1335" vertical-scroll-proportion="-9.208333">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flat-ui.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/flat-ui.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3655" column="1" selection-start="85590" selection-end="85590" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/compatibility/application.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/admin.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="62" column="77" selection-start="2106" selection-end="2106" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mediaDisplay.coffee" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/mediaDisplay.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="93" column="19" selection-start="3038" selection-end="3038" vertical-scroll-proportion="0.46268657">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="photo.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/photo.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="7" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="photo.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/photo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="58" selection-start="88" selection-end="88" vertical-scroll-proportion="-0.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hyundai.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/hyundai.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="0" selection-start="289" selection-end="289" vertical-scroll-proportion="-9.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/hyundai.coffee" />
+        <option value="$PROJECT_DIR$/client/calibrator.html" />
+        <option value="$PROJECT_DIR$/client/calibrator.coffee" />
+        <option value="$PROJECT_DIR$/client/camera.coffee" />
+        <option value="$PROJECT_DIR$/client/hyundai.html" />
+        <option value="$PROJECT_DIR$/webrtc.coffee" />
+        <option value="$PROJECT_DIR$/client/camera.html" />
+        <option value="$USER_HOME$/Downloads/Flat-UI-master 3/js/application.js" />
+        <option value="$PROJECT_DIR$/client/flat-ui.css" />
+        <option value="$PROJECT_DIR$/client/hyundai.less" />
+        <option value="$PROJECT_DIR$/client/mediaDisplay.html" />
+        <option value="$PROJECT_DIR$/client/photo.html" />
+        <option value="$PROJECT_DIR$/client/photo.coffee" />
+        <option value="$PROJECT_DIR$/client/admin.coffee" />
+        <option value="$PROJECT_DIR$/client/admininterface.html" />
+        <option value="$PROJECT_DIR$/client/mediaDisplay.coffee" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="8" />
+    <option name="y" value="22" />
+    <option name="width" value="1272" />
+    <option name="height" value="715" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hyundai" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hyundai" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hyundai" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hyundai" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hyundai" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="preferences.general" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../voodoometeor" />
+    <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="3f2dc479-64f1-424c-ad07-674af78e974d">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="90bc777b-315c-45c2-a9f6-408dd2b22698">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="9a000862-ebff-4f5b-a253-d21d44838e35">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/compatibility" />
+      <recent name="$PROJECT_DIR$/public/fonts" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/client" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client" />
+      <recent name="$PROJECT_DIR$/client/compatibility" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32240ef7-d296-4e09-bb3b-94560fec2ce4" name="Default" comment="" />
+      <created>1398660708590</created>
+      <updated>1398660708590</updated>
+    </task>
+    <task id="LOCAL-00001" summary="commit before changing to own webrtc implementation">
+      <created>1399084069564</created>
+      <updated>1399084069564</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit before moving state stuff into separate file">
+      <created>1399152155960</created>
+      <updated>1399152155961</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added enabling and disabling of cam streaming to admin panel">
+      <created>1399163982578</created>
+      <updated>1399163982578</updated>
+    </task>
+    <task id="LOCAL-00004" summary="first commit with images and alpha selection">
+      <created>1399568880637</created>
+      <updated>1399568880637</updated>
+    </task>
+    <task id="LOCAL-00005" summary="before doing next video prefetch&#10;">
+      <created>1399763357867</created>
+      <updated>1399763357867</updated>
+    </task>
+    <task id="LOCAL-00006" summary="changed video to using a hidden prefetch video tag - much cleaner. added camera admin section">
+      <created>1399768419609</created>
+      <updated>1399768419609</updated>
+    </task>
+    <task id="LOCAL-00007" summary="removed cursor">
+      <created>1399786235243</created>
+      <updated>1399786235243</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="8" y="22" width="1272" height="715" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Unicode Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32941177" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Code Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959217" sideWeight="0.67058825" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="before making photo happen" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="commit before changing to own webrtc implementation" />
+    <MESSAGE value="commit before moving state stuff into separate file" />
+    <MESSAGE value="added enabling and disabling of cam streaming to admin panel" />
+    <MESSAGE value="first commit with images and alpha selection" />
+    <MESSAGE value="before doing next video prefetch&#10;" />
+    <MESSAGE value="changed video to using a hidden prefetch video tag - much cleaner. added camera admin section" />
+    <MESSAGE value="removed cursor" />
+    <MESSAGE value="before making photo happen" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/client/compatibility/jquery-ui-1.10.3.custom.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/compatibility/bootstrap-select.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/compatibility/flatui-checkbox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Flat-UI-master 3/js/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Flat-UI-master 3/template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="13.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/compatibility/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/compatibility/bootstrap-switch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.17910448">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/flat-ui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3655" column="1" selection-start="85590" selection-end="85590" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/hyundai.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="289" selection-end="289" vertical-scroll-proportion="-9.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/camera.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="11" selection-start="114" selection-end="114" vertical-scroll-proportion="-1.25">
+          <folding>
+            <marker date="1399788756000" expanded="true" signature="23:113" placeholder="..." />
+            <marker date="1399788756000" expanded="true" signature="75:92" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/photo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="58" selection-start="88" selection-end="88" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/mediaDisplay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="9" selection-start="1335" selection-end="1335" vertical-scroll-proportion="-9.208333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/photo.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="7" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/admin.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="77" selection-start="2106" selection-end="2106" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/admininterface.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="146" column="104" selection-start="5294" selection-end="5294" vertical-scroll-proportion="-6.75">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#h3#0;n#template#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#label#0;n#div#0;n#div#0;n#div#0;n#template#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#1;n#div#0;n#div#0;n#div#0;n#template#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#2;n#div#0;n#div#0;n#div#0;n#template#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#3;n#div#0;n#div#0;n#div#0;n#template#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#5;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/mediaDisplay.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="19" selection-start="3038" selection-end="3038" vertical-scroll-proportion="0.46268657">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

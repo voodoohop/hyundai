@@ -90,3 +90,10 @@ Template.mediaDisplay.events
     unless (m.mediaWidth == size.mediaWidth and m.mediaHeight==size.mediaHeigth)
       media.update(m._id, {$set: size})
     console.log("loaded video data")
+  "timeupdate #hyundai_vid": (event,tmplInstance) ->
+    if (this.media.usePhoto)
+      time = event.target.currentTime
+      if (time > this.media.photoSeconds)
+        console.log("take photo...")
+        takePhoto(tmplInstance.find("#hyundai_vid"),tmplInstance.find("#camera"))
+

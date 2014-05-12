@@ -13,10 +13,10 @@ if (Meteor.isClient)
       callback?(element, previousStream)
       return
     rtc.createStream
-      video: true
-#        mandatory:
-#          minWidth: 1280,
-#          minHeight: 720
+      video:
+        mandatory:
+          minWidth: 1280
+          minHeight: 720
     , (stream) ->
       rtc.attachStream(stream,element) if element
       previousStream = stream
