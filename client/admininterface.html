@@ -25,6 +25,8 @@
   </div>
   <div class="container">
     {{> cameraAdmin}}
+    <h3>Misc</h3>
+    {{> backgroundColorSelector}}
     <h3>Media</h3>
     {{> contentList medias=medias bgImages=bgImages}}
     {{> mediauploader}}
@@ -36,6 +38,14 @@
 
 </template>
 
+<template name="backgroundColorSelector">
+  BG Color:
+  <div class="input-group" style="width: 100px;">
+     <input class="form-control"  type="text" value="{{state "clientScreen.backgroundColor"}}" />
+      <span  class="input-group-addon" style= " background-color: {{state "clientScreen.backgroundColor"}}"></span>
+    </div>
+
+</template>
 
 <template name="cameraAdmin">
   <h3>

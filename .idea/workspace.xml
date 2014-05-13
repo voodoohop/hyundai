@@ -132,7 +132,7 @@
     <ignored path="hyundai.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/hyundai.html" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399786146173" ignored="false" />
-    <file path="/Dummy.txt" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399885218442" ignored="false" />
+    <file path="/Dummy.txt" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399911705081" ignored="false" />
     <file path="$PROJECT_DIR$/../voodoometeor/models/facebook.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1398695344209" ignored="false" />
     <file path="/facebook.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1398695342509" ignored="false" />
     <file path="$PROJECT_DIR$/../voodoometeor/models/eventmanager.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399567488829" ignored="false" />
@@ -140,10 +140,10 @@
     <file path="/contentitem.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1398692831358" ignored="false" />
     <file path="$PROJECT_DIR$/../voodoometeor/client/views/contentgrid/contentcommon.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1398903125199" ignored="false" />
     <file path="$PROJECT_DIR$/../voodoometeor/models/voodoocontent-model.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1398695808201" ignored="false" />
-    <file path="/admininterface.html" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399887300394" ignored="false" />
+    <file path="/admininterface.html" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399955779311" ignored="false" />
     <file path="/hyundai.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399772850110" ignored="false" />
     <file path="/medialibrary.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399763791874" ignored="false" />
-    <file path="/admin.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399887220842" ignored="false" />
+    <file path="/admin.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399954744755" ignored="false" />
     <file path="/hyundai.less" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399765111023" ignored="false" />
     <file path="/mediaServer.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1398931140674" ignored="false" />
     <file path="/webrtc.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399773874293" ignored="false" />
@@ -204,25 +204,38 @@
       <file leaf-file-name="admininterface.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/admininterface.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="146" column="104" selection-start="5294" selection-end="5294" vertical-scroll-proportion="-6.75">
+            <state line="43" column="93" selection-start="1480" selection-end="1520" vertical-scroll-proportion="-14.375">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#h3#0;n#template#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#5;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#label#0;n#div#0;n#div#0;n#div#0;n#template#5;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#1;n#div#0;n#div#0;n#div#0;n#template#5;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#2;n#div#0;n#div#0;n#div#0;n#template#5;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#3;n#div#0;n#div#0;n#div#0;n#template#5;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#5;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#template#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#template#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#h3#0;n#template#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#6;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#label#0;n#div#0;n#div#0;n#div#0;n#template#6;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#1;n#div#0;n#div#0;n#div#0;n#template#6;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#2;n#div#0;n#div#0;n#div#0;n#template#6;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#3;n#div#0;n#div#0;n#div#0;n#template#6;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#6;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mediaDisplay.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="mediaDisplay.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/mediaDisplay.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="9" selection-start="1335" selection-end="1335" vertical-scroll-proportion="-9.208333">
+            <state line="3" column="135" selection-start="168" selection-end="168" vertical-scroll-proportion="0.088757396">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="29" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -237,28 +250,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/compatibility/application.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="admin.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/admin.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="77" selection-start="2106" selection-end="2106" vertical-scroll-proportion="0.0">
+            <state line="103" column="61" selection-start="3340" selection-end="3340" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mediaDisplay.coffee" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mediaDisplay.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/mediaDisplay.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="19" selection-start="3038" selection-end="3038" vertical-scroll-proportion="0.46268657">
+            <state line="93" column="19" selection-start="3038" selection-end="3038" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -319,12 +323,12 @@
         <option value="$USER_HOME$/Downloads/Flat-UI-master 3/js/application.js" />
         <option value="$PROJECT_DIR$/client/flat-ui.css" />
         <option value="$PROJECT_DIR$/client/hyundai.less" />
-        <option value="$PROJECT_DIR$/client/mediaDisplay.html" />
         <option value="$PROJECT_DIR$/client/photo.html" />
         <option value="$PROJECT_DIR$/client/photo.coffee" />
+        <option value="$PROJECT_DIR$/client/mediaDisplay.coffee" />
         <option value="$PROJECT_DIR$/client/admin.coffee" />
         <option value="$PROJECT_DIR$/client/admininterface.html" />
-        <option value="$PROJECT_DIR$/client/mediaDisplay.coffee" />
+        <option value="$PROJECT_DIR$/client/mediaDisplay.html" />
       </list>
     </option>
   </component>
@@ -541,7 +545,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="22" width="1272" height="715" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -551,7 +555,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32941177" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Code Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -608,7 +612,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="before making photo happen" />
+    <option name="LAST_COMMIT_MESSAGE" value="photo star" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -630,18 +634,12 @@
     <MESSAGE value="changed video to using a hidden prefetch video tag - much cleaner. added camera admin section" />
     <MESSAGE value="removed cursor" />
     <MESSAGE value="before making photo happen" />
+    <MESSAGE value="photo star" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/compatibility/jquery-ui-1.10.3.custom.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/compatibility/bootstrap-select.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -702,26 +700,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/camera.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="11" selection-start="114" selection-end="114" vertical-scroll-proportion="-1.25">
-          <folding>
-            <marker date="1399788756000" expanded="true" signature="23:113" placeholder="..." />
-            <marker date="1399788756000" expanded="true" signature="75:92" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/photo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="58" selection-start="88" selection-end="88" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/mediaDisplay.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="9" selection-start="1335" selection-end="1335" vertical-scroll-proportion="-9.208333">
           <folding />
         </state>
       </provider>
@@ -733,33 +714,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="29" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/camera.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="11" selection-start="114" selection-end="114" vertical-scroll-proportion="-1.25">
+          <folding>
+            <marker date="1399788756000" expanded="true" signature="23:113" placeholder="..." />
+            <marker date="1399788756000" expanded="true" signature="75:92" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/admin.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="77" selection-start="2106" selection-end="2106" vertical-scroll-proportion="0.0">
+        <state line="103" column="61" selection-start="3340" selection-end="3340" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/admininterface.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="146" column="104" selection-start="5294" selection-end="5294" vertical-scroll-proportion="-6.75">
+        <state line="43" column="93" selection-start="1480" selection-end="1520" vertical-scroll-proportion="-14.375">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#h3#0;n#template#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#label#0;n#div#0;n#div#0;n#div#0;n#template#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#1;n#div#0;n#div#0;n#div#0;n#template#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#2;n#div#0;n#div#0;n#div#0;n#template#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#3;n#div#0;n#div#0;n#div#0;n#template#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#5;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#template#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#template#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#h3#0;n#template#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#6;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#label#0;n#div#0;n#div#0;n#div#0;n#template#6;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#1;n#div#0;n#div#0;n#div#0;n#template#6;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#2;n#div#0;n#div#0;n#div#0;n#template#6;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#3;n#div#0;n#div#0;n#div#0;n#template#6;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#6;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/mediaDisplay.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="19" selection-start="3038" selection-end="3038" vertical-scroll-proportion="0.46268657">
+        <state line="93" column="19" selection-start="3038" selection-end="3038" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/mediaDisplay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="135" selection-start="168" selection-end="168" vertical-scroll-proportion="0.088757396">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

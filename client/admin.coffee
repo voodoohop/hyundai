@@ -98,6 +98,10 @@ Template.admin.events
   "click .startstreamingbtn": ->
     setState("media",{ adminRemoteViewEnabled: ! getState("media").adminRemoteViewEnabled })
 
+Template.backgroundColorSelector.events
+  "input": (e)->
+    console.log(e.target.value)
+    setState("clientScreen", {backgroundColor: e.target.value})
 Template.cameraAdmin.events
   "click .cameraEnableButton": ->
     setState("camera", {enabled: !getState("camera")?.enabled})

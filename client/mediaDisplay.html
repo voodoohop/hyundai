@@ -1,7 +1,7 @@
 
 
 <template name="mediaDisplay">
-  <div style="position:absolute; left:0px;top:0px;width:100%; height: 100%; background-color: black;  ">
+  <div style="position:absolute; left:0px;top:0px;width:100%; height: 100%; background-color: {{state "clientScreen.backgroundColor"}};">
     <div style="position:relative;width:100%; height: 100%; overflow:hidden" id="clientContainer">
       {{#if state "camera.enabled"}}
       <div style="position: absolute; left:0px; top:0px; z-index: 4; width:100%; height: 100%;">
