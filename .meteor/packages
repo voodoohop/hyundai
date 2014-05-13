@@ -13,3 +13,4 @@ cfs-filesystem
 ui-dropped-event
 npm
 streams
+cfs-gridfs
