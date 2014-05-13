@@ -1,5 +1,7 @@
 #TODO try to remove the nocache hack again and somehow make it not crash loading video
 
+FS.debug=true
+
 if (Meteor.isClient)
 
   Router.map ->

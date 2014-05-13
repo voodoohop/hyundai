@@ -20,17 +20,23 @@ Template.mediaDisplay.rendered = ->
     $(window).resize ->
       setClientAspectRatio($(window).width(),$(window).height())
 
-
 Meteor.startup ->
-  Session.set("videosPlayed", 0)
+
+  Session.set("videosPlayed", -1)
 
 Template.mediaDisplay.videoURL = ->
-  videoURL = this.media.url()+"?sequenceNo_forNoCache="+Session.get("videosPlayed")
+  if this.loopMedia
+    videoURL = this.media.url()+"?sequenceNo_forNoCache="+Session.get("videosPlayed")
+  else
+    videoURL = this.media.url()
   return videoURL
 
 Template.mediaDisplay.nextVideoURL = ->
   nextVideo = if this.loopMedia then this.media else this.nextMedia
-  videoURL = nextVideo.url()+"?sequenceNo_forNoCache="+(Session.get("videosPlayed")+1)
+  if this.loopMedia
+    videoURL = nextVideo.url()+"?sequenceNo_forNoCache="+(Session.get("videosPlayed")+1)
+  else
+    videoURL = nextVideo.url()
   return videoURL
 
 
@@ -73,6 +79,9 @@ Template.mediaDisplay.cameraStyle = ->
   else
     return "width: #{this.mediaWidth}px; height: #{this.mediaHeight}px; -webkit-transform: #{mediaCssTransforms this}"
 
+nextMediaDebounced = _.debounce( ->
+  nextMedia()
+,300)
 Template.mediaDisplay.events
   "ended #hyundai_vid": (e,tmplInst) ->
     console.log("ended",this,tmplInst)
@@ -80,7 +89,7 @@ Template.mediaDisplay.events
       Session.set("videosPlayed",Session.get("videosPlayed")+1)
     else
       nextMedia()
-      Session.set("videosPlayed",Session.get("videosPlayed")+1)
+      #Session.set("videosPlayed",Session.get("videosPlayed")+1)
 
   "loadeddata #hyundai_vid": () ->
     size = {mediaWidth: videoPlayer.videoWidth, mediaHeight: videoPlayer.videoHeight}
@@ -91,6 +100,11 @@ Template.mediaDisplay.events
       media.update(m._id, {$set: size})
     console.log("loaded video data")
   "timeupdate #hyundai_vid": (event,tmplInstance) ->
+    if !this.loopMedia and event.target.currentTime > 1
+      event.target.pause()
+      nextMediaDebounced()
+      #Session.set("videosPlayed",Session.get("videosPlayed")+1)
+
     if (this.media.usePhoto)
       time = event.target.currentTime
       if (time > this.media.photoSeconds)
