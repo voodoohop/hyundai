@@ -40,7 +40,7 @@
     <file path="$PROJECT_DIR$/../voodoometeor/client/views/widgets/fb_friend_selector.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399404532529" ignored="false" />
     <file path="/fb_friend_selector.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399404532529" ignored="false" />
     <file path="$PROJECT_DIR$/../voodoometeor/.ignore/testing_error" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399423955801" ignored="false" />
-    <file path="/mediaDisplay.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1400027191845" ignored="false" />
+    <file path="/mediaDisplay.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1400027991526" ignored="false" />
     <file path="/mediaDisplay.html" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1400023918113" ignored="false" />
     <file path="$PROJECT_DIR$/../voodoometeor/packages/iron-router/.build/npm/node_modules/connect/node_modules/bytes/package.json" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399567223785" ignored="false" />
     <file path="/eventwidgets.html" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399567499927" ignored="false" />
@@ -77,10 +77,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="admininterface.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="admininterface.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/admininterface.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="46" selection-start="776" selection-end="776" vertical-scroll-proportion="58.125">
+            <state line="13" column="60" selection-start="790" selection-end="790" vertical-scroll-proportion="0.18927445">
               <folding />
             </state>
           </provider>
@@ -104,10 +104,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mediaDisplay.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mediaDisplay.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/mediaDisplay.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="19" selection-start="995" selection-end="995" vertical-scroll-proportion="0.39747635">
+            <state line="20" column="33" selection-start="926" selection-end="926" vertical-scroll-proportion="-5.625">
               <folding />
             </state>
           </provider>
@@ -116,7 +116,7 @@
       <file leaf-file-name="mediaDisplay.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/mediaDisplay.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="4" selection-start="2946" selection-end="2946" vertical-scroll-proportion="0.0">
+            <state line="70" column="25" selection-start="2220" selection-end="2220" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -171,9 +171,9 @@
         <option value="$PROJECT_DIR$/packages/fileCollection/resumable_client.coffee" />
         <option value="$PROJECT_DIR$/medialibrary.coffee" />
         <option value="$PROJECT_DIR$/hyundai.coffee" />
-        <option value="$PROJECT_DIR$/client/admininterface.html" />
-        <option value="$PROJECT_DIR$/client/mediaDisplay.coffee" />
         <option value="$PROJECT_DIR$/client/mediaDisplay.html" />
+        <option value="$PROJECT_DIR$/client/mediaDisplay.coffee" />
+        <option value="$PROJECT_DIR$/client/admininterface.html" />
       </list>
     </option>
   </component>
@@ -569,13 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/admininterface.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="46" selection-start="776" selection-end="776" vertical-scroll-proportion="58.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/calibrator.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -590,16 +583,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/mediaDisplay.coffee">
+    <entry file="file://$PROJECT_DIR$/client/mediaDisplay.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="4" selection-start="2946" selection-end="2946" vertical-scroll-proportion="0.0">
+        <state line="20" column="33" selection-start="926" selection-end="926" vertical-scroll-proportion="-5.625">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/mediaDisplay.html">
+    <entry file="file://$PROJECT_DIR$/client/mediaDisplay.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="19" selection-start="995" selection-end="995" vertical-scroll-proportion="0.39747635">
+        <state line="70" column="25" selection-start="2220" selection-end="2220" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/admininterface.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="60" selection-start="790" selection-end="790" vertical-scroll-proportion="0.18927445">
           <folding />
         </state>
       </provider>

@@ -68,9 +68,7 @@ nextMediaDebounced = _.debounce( ->
 Template.mediaDisplay.events
   "ended #hyundai_vid": (e,tmplInst) ->
     console.log("ended",this,tmplInst)
-    if this.loopMedia
-      Session.set("videosPlayed",Session.get("videosPlayed")+1)
-    else
+    unless this.loopMedia
       nextMediaWithVideoUnload()
       #Session.set("videosPlayed",Session.get("videosPlayed")+1)
 
