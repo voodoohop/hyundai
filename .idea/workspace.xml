@@ -40,7 +40,7 @@
     <file path="$PROJECT_DIR$/../voodoometeor/client/views/widgets/fb_friend_selector.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399404532529" ignored="false" />
     <file path="/fb_friend_selector.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399404532529" ignored="false" />
     <file path="$PROJECT_DIR$/../voodoometeor/.ignore/testing_error" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399423955801" ignored="false" />
-    <file path="/mediaDisplay.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1400027991526" ignored="false" />
+    <file path="/mediaDisplay.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1400028175060" ignored="false" />
     <file path="/mediaDisplay.html" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1400023918113" ignored="false" />
     <file path="$PROJECT_DIR$/../voodoometeor/packages/iron-router/.build/npm/node_modules/connect/node_modules/bytes/package.json" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399567223785" ignored="false" />
     <file path="/eventwidgets.html" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399567499927" ignored="false" />
@@ -77,10 +77,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="admininterface.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="admininterface.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/admininterface.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="60" selection-start="790" selection-end="790" vertical-scroll-proportion="0.18927445">
+            <state line="13" column="60" selection-start="790" selection-end="790" vertical-scroll-proportion="-4.375">
               <folding />
             </state>
           </provider>
@@ -113,10 +113,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mediaDisplay.coffee" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="mediaDisplay.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/mediaDisplay.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="25" selection-start="2220" selection-end="2220" vertical-scroll-proportion="0.0">
+            <state line="70" column="24" selection-start="2219" selection-end="2219" vertical-scroll-proportion="0.3841642">
               <folding />
             </state>
           </provider>
@@ -172,8 +172,8 @@
         <option value="$PROJECT_DIR$/medialibrary.coffee" />
         <option value="$PROJECT_DIR$/hyundai.coffee" />
         <option value="$PROJECT_DIR$/client/mediaDisplay.html" />
-        <option value="$PROJECT_DIR$/client/mediaDisplay.coffee" />
         <option value="$PROJECT_DIR$/client/admininterface.html" />
+        <option value="$PROJECT_DIR$/client/mediaDisplay.coffee" />
       </list>
     </option>
   </component>
@@ -590,16 +590,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/mediaDisplay.coffee">
+    <entry file="file://$PROJECT_DIR$/client/admininterface.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="25" selection-start="2220" selection-end="2220" vertical-scroll-proportion="0.0">
+        <state line="13" column="60" selection-start="790" selection-end="790" vertical-scroll-proportion="-4.375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/admininterface.html">
+    <entry file="file://$PROJECT_DIR$/client/mediaDisplay.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="60" selection-start="790" selection-end="790" vertical-scroll-proportion="0.18927445">
+        <state line="70" column="24" selection-start="2219" selection-end="2219" vertical-scroll-proportion="0.3841642">
           <folding />
         </state>
       </provider>
