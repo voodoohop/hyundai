@@ -2,138 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32240ef7-d296-4e09-bb3b-94560fec2ce4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/png/Book.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/png/Calendar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/png/Chat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/png/Clipboard.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/png/Compas.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/png/Gift-Box.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/png/Infinity-Loop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/png/Mail.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/png/Map.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/png/Pensils.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/png/Pocket.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/png/Retina-Ready.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/png/Toilet-Paper.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/png/Watches.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/demo/browser-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/demo/browser-author.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/demo/browser-pic-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/demo/browser-pic-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/demo/browser-pic-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/demo/browser-pic-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/demo/browser-pic-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/demo/browser-pic-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/demo/browser.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/todo/done-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/todo/done.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/exaple-image.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/flat-ui-icons-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/flat-ui-icons-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/flat-ui-icons-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/video/fullscreen-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/video/fullscreen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/demo/html-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/login/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/login/imac-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/login/imac.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-black.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-black.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-black.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-bold.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-bold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-bolditalic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-bolditalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-bolditalic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-italic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-italic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-italic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-light.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-light.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-light.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/demo/logo-mask-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/demo/logo-mask.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/footer/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/switch/mask-square.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/switch/mask.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/video/pause-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/video/pause.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/video/play-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/video/play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/video/poster.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/tile/ribbon-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/tile/ribbon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/todo/search-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/todo/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/todo/todo-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/todo/todo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/demo/video.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/video/volume-full-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/video/volume-full.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/video/volume-off-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/video/volume-off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/compatibility/application.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/svg/book.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/compatibility/bootstrap-select.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/compatibility/bootstrap-switch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/compatibility/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/svg/calendar.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/svg/chat.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/svg/clipboard.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/svg/clocks.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/svg/compas.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/flat-ui-icons-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/flat-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/compatibility/flatui-checkbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/compatibility/flatui-radio.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/svg/gift-box.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/compatibility/jquery-ui-1.10.3.custom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/compatibility/jquery.placeholder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/compatibility/jquery.tagsinput.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/compatibility/jquery.ui.touch-punch.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-black.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-bold.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-bolditalic.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-italic.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-light.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/lato/lato-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/svg/loop.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/svg/mail.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/svg/map.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/svg/paper-bag.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/svg/pencils.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/photo.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/photo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/prettify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/compatibility/flat-ui-js/google-code-prettify/prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/compatibility/respond.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/svg/retina.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/icons/svg/toilet-paper.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/compatibility/typeahead.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/fonts" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/admin.coffee" afterPath="$PROJECT_DIR$/client/admin.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/.gitignore" afterPath="$PROJECT_DIR$/packages/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/admininterface.html" afterPath="$PROJECT_DIR$/client/admininterface.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/camera.html" afterPath="$PROJECT_DIR$/client/camera.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/hyundai.less" afterPath="$PROJECT_DIR$/client/hyundai.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hyundai.coffee" afterPath="$PROJECT_DIR$/hyundai.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/mediaDisplay.coffee" afterPath="$PROJECT_DIR$/client/mediaDisplay.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/mediaDisplay.html" afterPath="$PROJECT_DIR$/client/mediaDisplay.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/medialibrary.coffee" afterPath="$PROJECT_DIR$/medialibrary.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webrtc.coffee" afterPath="$PROJECT_DIR$/webrtc.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hyundai.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/hyundai.html" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399786146173" ignored="false" />
-    <file path="/Dummy.txt" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399911705081" ignored="false" />
+    <file path="/Dummy.txt" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399980709116" ignored="false" />
     <file path="$PROJECT_DIR$/../voodoometeor/models/facebook.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1398695344209" ignored="false" />
     <file path="/facebook.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1398695342509" ignored="false" />
     <file path="$PROJECT_DIR$/../voodoometeor/models/eventmanager.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399567488829" ignored="false" />
@@ -142,15 +22,15 @@
     <file path="$PROJECT_DIR$/../voodoometeor/client/views/contentgrid/contentcommon.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1398903125199" ignored="false" />
     <file path="$PROJECT_DIR$/../voodoometeor/models/voodoocontent-model.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1398695808201" ignored="false" />
     <file path="/admininterface.html" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399955779311" ignored="false" />
-    <file path="/hyundai.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399772850110" ignored="false" />
-    <file path="/medialibrary.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399960719453" ignored="false" />
-    <file path="/admin.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399954744755" ignored="false" />
+    <file path="/hyundai.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399972546928" ignored="false" />
+    <file path="/medialibrary.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1400021781036" ignored="false" />
+    <file path="/admin.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399976025606" ignored="false" />
     <file path="/hyundai.less" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399765111023" ignored="false" />
     <file path="/mediaServer.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1398931140674" ignored="false" />
     <file path="/webrtc.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399773874293" ignored="false" />
     <file path="/packages.json" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1398937228293" ignored="false" />
     <file path="/webrtc.io.js" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1398948115858" ignored="false" />
-    <file path="/a.dummy" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399875490518" ignored="false" />
+    <file path="/a.dummy" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399982800019" ignored="false" />
     <file path="/appstate.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399767619398" ignored="false" />
     <file path="/calibrator.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399775340025" ignored="false" />
     <file path="/utils.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399388993714" ignored="false" />
@@ -160,8 +40,8 @@
     <file path="$PROJECT_DIR$/../voodoometeor/client/views/widgets/fb_friend_selector.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399404532529" ignored="false" />
     <file path="/fb_friend_selector.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399404532529" ignored="false" />
     <file path="$PROJECT_DIR$/../voodoometeor/.ignore/testing_error" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399423955801" ignored="false" />
-    <file path="/mediaDisplay.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399887372152" ignored="false" />
-    <file path="/mediaDisplay.html" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399885110089" ignored="false" />
+    <file path="/mediaDisplay.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1400027191845" ignored="false" />
+    <file path="/mediaDisplay.html" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1400023918113" ignored="false" />
     <file path="$PROJECT_DIR$/../voodoometeor/packages/iron-router/.build/npm/node_modules/connect/node_modules/bytes/package.json" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399567223785" ignored="false" />
     <file path="/eventwidgets.html" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399567499927" ignored="false" />
     <file path="$PROJECT_DIR$/../voodoometeor/client/views/widgets/eventwidgets.html" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399567499927" ignored="false" />
@@ -171,6 +51,13 @@
     <file path="/calibrator.html" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399772409553" ignored="false" />
     <file path="/photo.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399887015125" ignored="false" />
     <file path="/photo.html" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399886654158" ignored="false" />
+    <file path="/access-point-server.js" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399972428687" ignored="false" />
+    <file path="/gridFS_server.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399979811668" ignored="false" />
+    <file path="/gridFS_client.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399979199388" ignored="false" />
+    <file path="/http_access_server.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399981127997" ignored="false" />
+    <file path="/resumable_server.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399982704387" ignored="false" />
+    <file path="/server_shared.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399982103882" ignored="false" />
+    <file path="/resumable_client.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399982840945" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,84 +80,34 @@
       <file leaf-file-name="admininterface.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/admininterface.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="93" selection-start="1480" selection-end="1520" vertical-scroll-proportion="-14.375">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#template#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#template#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#0;n#h3#0;n#template#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#6;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#label#0;n#div#0;n#div#0;n#div#0;n#template#6;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#1;n#div#0;n#div#0;n#div#0;n#template#6;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#2;n#div#0;n#div#0;n#div#0;n#template#6;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#label#3;n#div#0;n#div#0;n#div#0;n#template#6;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#6;n#!!top" expanded="true" />
-              </folding>
+            <state line="13" column="46" selection-start="776" selection-end="776" vertical-scroll-proportion="58.125">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="medialibrary.coffee" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="calibrator.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/calibrator.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="medialibrary.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/medialibrary.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="40" selection-start="292" selection-end="292" vertical-scroll-proportion="0.2757353">
+            <state line="67" column="0" selection-start="1676" selection-end="1676" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mediaDisplay.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="mediaDisplay.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/mediaDisplay.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="9" selection-start="1368" selection-end="1368" vertical-scroll-proportion="-15.5">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#template#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="filesystem.server.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/packages/cfs-filesystem/filesystem.server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="filesystem.client.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/packages/cfs-filesystem/filesystem.client.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/packages/cfs-collection/package.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/packages/collectionFS/package.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="25" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/admin.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="61" selection-start="3340" selection-end="3340" vertical-scroll-proportion="0.0">
+            <state line="21" column="19" selection-start="995" selection-end="995" vertical-scroll-proportion="0.39747635">
               <folding />
             </state>
           </provider>
@@ -279,7 +116,25 @@
       <file leaf-file-name="mediaDisplay.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/mediaDisplay.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="19" selection-start="3038" selection-end="3038" vertical-scroll-proportion="0.0">
+            <state line="90" column="4" selection-start="2946" selection-end="2946" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="photo.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/photo.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hyundai.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hyundai.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="84" selection-start="799" selection-end="799" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -303,22 +158,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/client/calibrator.html" />
-        <option value="$PROJECT_DIR$/client/calibrator.coffee" />
-        <option value="$PROJECT_DIR$/client/camera.coffee" />
-        <option value="$PROJECT_DIR$/client/hyundai.html" />
-        <option value="$PROJECT_DIR$/webrtc.coffee" />
-        <option value="$PROJECT_DIR$/client/camera.html" />
-        <option value="$USER_HOME$/Downloads/Flat-UI-master 3/js/application.js" />
-        <option value="$PROJECT_DIR$/client/flat-ui.css" />
-        <option value="$PROJECT_DIR$/client/hyundai.less" />
-        <option value="$PROJECT_DIR$/client/photo.html" />
         <option value="$PROJECT_DIR$/client/photo.coffee" />
-        <option value="$PROJECT_DIR$/client/mediaDisplay.coffee" />
+        <option value="$PROJECT_DIR$/packages/cfs-access-point/access-point-server.js" />
         <option value="$PROJECT_DIR$/client/admin.coffee" />
-        <option value="$PROJECT_DIR$/client/admininterface.html" />
-        <option value="$PROJECT_DIR$/client/mediaDisplay.html" />
+        <option value="$PROJECT_DIR$/packages/fileCollection/gridFS.coffee" />
+        <option value="$PROJECT_DIR$/packages/fileCollection/gridFS_client.coffee" />
+        <option value="$PROJECT_DIR$/packages/fileCollection/gridFS_server.coffee" />
+        <option value="$PROJECT_DIR$/packages/fileCollection/resumable/resumable.js" />
+        <option value="$PROJECT_DIR$/packages/fileCollection/http_access_server.coffee" />
+        <option value="$PROJECT_DIR$/packages/fileCollection/server_shared.coffee" />
+        <option value="$PROJECT_DIR$/packages/fileCollection/resumable_server.coffee" />
+        <option value="$PROJECT_DIR$/packages/fileCollection/resumable_client.coffee" />
         <option value="$PROJECT_DIR$/medialibrary.coffee" />
+        <option value="$PROJECT_DIR$/hyundai.coffee" />
+        <option value="$PROJECT_DIR$/client/admininterface.html" />
+        <option value="$PROJECT_DIR$/client/mediaDisplay.coffee" />
+        <option value="$PROJECT_DIR$/client/mediaDisplay.html" />
       </list>
     </option>
   </component>
@@ -326,7 +181,7 @@
     <option name="x" value="8" />
     <option name="y" value="22" />
     <option name="width" value="1272" />
-    <option name="height" value="715" />
+    <option name="height" value="721" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -391,6 +246,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hyundai" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hyundai" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -403,8 +272,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../voodoometeor" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -516,31 +385,35 @@
       <created>1399786235243</created>
       <updated>1399786235243</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="before testing new file storage module&#10;">
+      <created>1399972785872</created>
+      <updated>1399972785872</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="8" y="22" width="1272" height="715" extended-state="0" />
+    <frame x="8" y="22" width="1272" height="721" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3283582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Unicode Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Code Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959217" sideWeight="0.67058825" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959217" sideWeight="0.67164177" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -588,7 +461,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="photo star" />
+    <option name="LAST_COMMIT_MESSAGE" value="before testing new file storage module&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -611,136 +484,122 @@
     <MESSAGE value="removed cursor" />
     <MESSAGE value="before making photo happen" />
     <MESSAGE value="photo star" />
+    <MESSAGE value="before testing new file storage module&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/hyundai.less">
+    <entry file="file://$PROJECT_DIR$/packages/fileCollection/gridFS_client.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="289" selection-end="289" vertical-scroll-proportion="-9.0">
+        <state line="14" column="29" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/photo.html">
+    <entry file="file://$PROJECT_DIR$/packages/fileCollection/server_shared.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="58" selection-start="88" selection-end="88" vertical-scroll-proportion="-0.625">
+        <state line="18" column="17" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/fileCollection/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="398" column="29" selection-start="21875" selection-end="21875" vertical-scroll-proportion="0.85923755">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/fileCollection/resumable_client.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="84" selection-start="520" selection-end="520" vertical-scroll-proportion="0.11016949">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/fileCollection/http_access_server.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="169" column="13" selection-start="5360" selection-end="5360" vertical-scroll-proportion="0.55131966">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/fileCollection/resumable/resumable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="584" column="48" selection-start="20698" selection-end="20698" vertical-scroll-proportion="0.5777126">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/fileCollection/gridFS_server.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="24" selection-start="2264" selection-end="2264" vertical-scroll-proportion="0.5331565">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/fileCollection/resumable_server.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="162" column="43" selection-start="6933" selection-end="6933" vertical-scroll-proportion="0.61263734">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/fileCollection/file_collection_tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="162" column="45" selection-start="6427" selection-end="6427" vertical-scroll-proportion="0.31043956">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/photo.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="7" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/hyundai.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="29" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/camera.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="11" selection-start="114" selection-end="114" vertical-scroll-proportion="-1.25">
-          <folding>
-            <marker date="1399788756000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1399788756000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/admin.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="61" selection-start="3340" selection-end="3340" vertical-scroll-proportion="0.0">
+        <state line="27" column="84" selection-start="799" selection-end="799" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/admininterface.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="93" selection-start="1480" selection-end="1520" vertical-scroll-proportion="-14.375">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#template#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#template#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#h3#0;n#template#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#label#0;n#div#0;n#div#0;n#div#0;n#template#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#1;n#div#0;n#div#0;n#div#0;n#template#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#2;n#div#0;n#div#0;n#div#0;n#template#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#3;n#div#0;n#div#0;n#div#0;n#template#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#6;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/mediaDisplay.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="19" selection-start="3038" selection-end="3038" vertical-scroll-proportion="0.0">
+        <state line="13" column="46" selection-start="776" selection-end="776" vertical-scroll-proportion="58.125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/mediaDisplay.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="9" selection-start="1368" selection-end="1368" vertical-scroll-proportion="-15.5">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/cfs-filesystem/filesystem.server.js">
+    <entry file="file://$PROJECT_DIR$/client/calibrator.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/cfs-filesystem/filesystem.client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/cfs-collection/package.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/cfs-access-point/access-point-server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-8.745763">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/cfs-access-point/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.073446326">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/collectionFS/package.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="25" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/medialibrary.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="40" selection-start="292" selection-end="292" vertical-scroll-proportion="0.2757353">
+        <state line="67" column="0" selection-start="1676" selection-end="1676" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/mediaDisplay.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="4" selection-start="2946" selection-end="2946" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/mediaDisplay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="19" selection-start="995" selection-end="995" vertical-scroll-proportion="0.39747635">
           <folding />
         </state>
       </provider>

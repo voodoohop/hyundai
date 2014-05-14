@@ -65,15 +65,19 @@ if Meteor.isServer
   nextMedia = medias[(currentNo+1) % medias.length]
   return nextMedia
 
+@nextMedia = ->
+  next = getNextPlayingMedia()
+  return null unless next?
+  setState("media", {currentPlaying: next._id})
+  console.log("next media", next)
+  return next._id
+
+
 Meteor.startup ->
   if Meteor.isServer
     Meteor.methods
       "nextMedia": ->
-        next = getNextPlayingMedia()
-        return null unless next?
-        setState("media", {currentPlaying: next._id})
-        console.log("next media", next)
-        return next._id
+        nextMedia()
       "playMedia": (id) ->
 
         setState("media", {currentPlaying: id})
