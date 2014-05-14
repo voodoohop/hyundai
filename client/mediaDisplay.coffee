@@ -18,9 +18,9 @@ Template.mediaDisplay.rendered = ->
     #  attachRemoteCamToVideoElement("camera")
   else
 
-    setClientAspectRatio($(window).width(),$(window).height())
-    $(window).resize ->
-      setClientAspectRatio($(window).width(),$(window).height())
+    #setClientAspectRatio($(window).width(),$(window).height())
+    #$(window).resize ->
+    #  setClientAspectRatio($(window).width(),$(window).height())
 
 Template.mediaDisplay.backgroundImage = ->
   return null unless this.media.backgroundImage
