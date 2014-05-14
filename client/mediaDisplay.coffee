@@ -56,9 +56,12 @@ Template.mediaDisplay.cameraStyle = ->
 nextMediaWithVideoUnload = ->
   $(videoPlayer).prop("src",false)
   #$(nextVideoPlayer).prop("src",false)
+  videoPlayer.src=false
   videoPlayer.load()
   #nextVideoPlayer.load()
-  nextMedia()
+  Meteor.setTimeout( ->
+    nextMedia()
+  ,100)
 
 nextMediaDebounced = _.debounce( ->
   nextMediaWithVideoUnload()
