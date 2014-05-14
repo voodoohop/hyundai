@@ -1,26 +1,15 @@
 
 
 videoPlayer = null
-nextVideoPlayer = null
 
 Template.mediaDisplay.rendered = ->
   console.log("hyundai rendered",this)
   videoPlayer = this.find("#hyundai_vid")
-  nextVideoPlayer = this.find("#next_hyundai_vid")
 
   Meteor.videoPlayer = videoPlayer
-  console.log("setting video player source")
-  #console.log("getCurrentPlayingMedia",getCurrentPlayingMedia())
-  #loadMedia(getCurrentPlayingMedia())
-
-  if this.data.isRemote
-    #Meteor.defer ->
-    #  attachRemoteCamToVideoElement("camera")
-  else
-
-    #setClientAspectRatio($(window).width(),$(window).height())
-    #$(window).resize ->
-    #  setClientAspectRatio($(window).width(),$(window).height())
+  Meteor.setTimeout( ->
+    videoPlayer.load()
+  ,500)
 
 Template.mediaDisplay.backgroundImage = ->
   return null unless this.media.backgroundImage
