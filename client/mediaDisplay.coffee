@@ -7,9 +7,11 @@ Template.mediaDisplay.rendered = ->
   videoPlayer = this.find("#hyundai_vid")
 
   Meteor.videoPlayer = videoPlayer
-  Meteor.setTimeout( ->
-    videoPlayer.load()
-  ,500)
+  Deps.autorun ->
+    getCurrentPlayingMedia()
+    Meteor.setTimeout( ->
+      videoPlayer.play()
+    ,500)
 
 Template.mediaDisplay.backgroundImage = ->
   return null unless this.media.backgroundImage
