@@ -25,7 +25,7 @@
     <file path="/webrtc.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399773874293" ignored="false" />
     <file path="/packages.json" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1398937228293" ignored="false" />
     <file path="/webrtc.io.js" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1398948115858" ignored="false" />
-    <file path="/a.dummy" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399982800019" ignored="false" />
+    <file path="/a.dummy" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1400094725327" ignored="false" />
     <file path="/appstate.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399767619398" ignored="false" />
     <file path="/calibrator.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399775340025" ignored="false" />
     <file path="/utils.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399388993714" ignored="false" />
@@ -35,8 +35,8 @@
     <file path="$PROJECT_DIR$/../voodoometeor/client/views/widgets/fb_friend_selector.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399404532529" ignored="false" />
     <file path="/fb_friend_selector.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399404532529" ignored="false" />
     <file path="$PROJECT_DIR$/../voodoometeor/.ignore/testing_error" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399423955801" ignored="false" />
-    <file path="/mediaDisplay.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1400092101294" ignored="false" />
-    <file path="/mediaDisplay.html" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1400087231696" ignored="false" />
+    <file path="/mediaDisplay.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1400176035885" ignored="false" />
+    <file path="/mediaDisplay.html" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1400102681781" ignored="false" />
     <file path="$PROJECT_DIR$/../voodoometeor/packages/iron-router/.build/npm/node_modules/connect/node_modules/bytes/package.json" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399567223785" ignored="false" />
     <file path="/eventwidgets.html" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399567499927" ignored="false" />
     <file path="$PROJECT_DIR$/../voodoometeor/client/views/widgets/eventwidgets.html" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399567499927" ignored="false" />
@@ -53,6 +53,7 @@
     <file path="/resumable_server.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399982704387" ignored="false" />
     <file path="/server_shared.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399982103882" ignored="false" />
     <file path="/resumable_client.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1399982840945" ignored="false" />
+    <file path="/mediaStreamer.coffee" changelist="32240ef7-d296-4e09-bb3b-94560fec2ce4" time="1400110154777" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,52 +73,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="admininterface.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/admininterface.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="60" selection-start="790" selection-end="790" vertical-scroll-proportion="-4.375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="calibrator.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/calibrator.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="medialibrary.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/medialibrary.coffee">
           <provider selected="true" editor-type-id="text-editor">
             <state line="4" column="6" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1400021812000" expanded="true" signature="545:897" placeholder="..." />
-                <marker date="1400021812000" expanded="true" signature="1041:1363" placeholder="..." />
-                <marker date="1400021812000" expanded="true" signature="1694:1849" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mediaDisplay.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/mediaDisplay.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="3" selection-start="673" selection-end="673" vertical-scroll-proportion="-0.625">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#template#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="appstate.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appstate.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="39" selection-start="1341" selection-end="1341" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -126,26 +85,19 @@
       <file leaf-file-name="mediaDisplay.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/mediaDisplay.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="21" selection-start="220" selection-end="220" vertical-scroll-proportion="0.39823008">
+            <state line="54" column="6" selection-start="1698" selection-end="1698" vertical-scroll-proportion="0.7258065">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="photo.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/photo.coffee">
+      <file leaf-file-name="mediaDisplay.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/mediaDisplay.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hyundai.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hyundai.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="50" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="21" column="69" selection-start="1045" selection-end="1045" vertical-scroll-proportion="-13.125">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#template#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,7 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/client/photo.coffee" />
         <option value="$PROJECT_DIR$/packages/cfs-access-point/access-point-server.js" />
         <option value="$PROJECT_DIR$/client/admin.coffee" />
         <option value="$PROJECT_DIR$/packages/fileCollection/gridFS.coffee" />
@@ -182,6 +133,7 @@
         <option value="$PROJECT_DIR$/medialibrary.coffee" />
         <option value="$PROJECT_DIR$/client/admininterface.html" />
         <option value="$PROJECT_DIR$/hyundai.coffee" />
+        <option value="$PROJECT_DIR$/mediaStreamer.coffee" />
         <option value="$PROJECT_DIR$/client/mediaDisplay.html" />
         <option value="$PROJECT_DIR$/client/mediaDisplay.coffee" />
       </list>
@@ -189,9 +141,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="4" />
-    <option name="y" value="25" />
+    <option name="y" value="22" />
     <option name="width" value="1272" />
-    <option name="height" value="721" />
+    <option name="height" value="719" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -267,6 +219,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hyundai" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hyundai" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -402,19 +372,39 @@
     <option name="localTasksCounter" value="9" />
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="25" width="1272" height="721" extended-state="0" />
+    <frame x="4" y="22" width="1272" height="719" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294509" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294509" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Unicode Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Runner" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294509" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Code Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -500,78 +490,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/packages/fileCollection/server_shared.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="17" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/fileCollection/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="398" column="29" selection-start="21875" selection-end="21875" vertical-scroll-proportion="0.85923755">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/fileCollection/resumable_client.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="84" selection-start="520" selection-end="520" vertical-scroll-proportion="0.11016949">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/fileCollection/http_access_server.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="169" column="13" selection-start="5360" selection-end="5360" vertical-scroll-proportion="0.55131966">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/fileCollection/resumable/resumable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="584" column="48" selection-start="20698" selection-end="20698" vertical-scroll-proportion="0.5777126">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/fileCollection/gridFS_server.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="24" selection-start="2264" selection-end="2264" vertical-scroll-proportion="0.5331565">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/fileCollection/resumable_server.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="43" selection-start="6933" selection-end="6933" vertical-scroll-proportion="0.61263734">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/fileCollection/file_collection_tests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="45" selection-start="6427" selection-end="6427" vertical-scroll-proportion="0.31043956">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/photo.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/calibrator.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/admininterface.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="60" selection-start="790" selection-end="790" vertical-scroll-proportion="-4.375">
@@ -593,29 +511,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/medialibrary.coffee">
+    <entry file="file://$PROJECT_DIR$/packages/cfs-base-package/base-server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/cfs-base-package/base-common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="21" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/cfs-collection/api.common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-10.769912">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/cfs-storage-adapter/storageAdapter.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.067039">
           <folding>
-            <marker date="1400021812000" expanded="true" signature="545:897" placeholder="..." />
-            <marker date="1400021812000" expanded="true" signature="1041:1363" placeholder="..." />
-            <marker date="1400021812000" expanded="true" signature="1694:1849" placeholder="..." />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/cfs-access-point/access-point-server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="8" selection-start="301" selection-end="301" vertical-scroll-proportion="0.21428572">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/streams/lib/ev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/streams/lib/client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.4160839">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/streams/lib/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.1932023">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/cfs-gridfs/gridfs.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.5599284">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/mediaDisplay.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="3" selection-start="673" selection-end="673" vertical-scroll-proportion="-0.625">
+        <state line="21" column="69" selection-start="1045" selection-end="1045" vertical-scroll-proportion="-13.125">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/medialibrary.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="6" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/mediaDisplay.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="21" selection-start="220" selection-end="220" vertical-scroll-proportion="0.39823008">
+        <state line="54" column="6" selection-start="1698" selection-end="1698" vertical-scroll-proportion="0.7258065">
           <folding />
         </state>
       </provider>

@@ -50,6 +50,10 @@ nextMediaWithVideoUnload = ->
   #nextVideoPlayer.load()
   Meteor.setTimeout( ->
     nextMedia()
+    Meteor.setTimeout( ->
+      videoPlayer.play()
+      
+    ,100)
   ,100)
 
 nextMediaDebounced = _.debounce( ->
