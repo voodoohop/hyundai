@@ -52,7 +52,6 @@ nextMediaWithVideoUnload = ->
     nextMedia()
     Meteor.setTimeout( ->
       videoPlayer.play()
-      
     ,100)
   ,100)
 
