@@ -36,6 +36,7 @@ if (Meteor.isClient)
         this.render() if this.ready()
       data: ->
         {media: getCurrentPlayingMedia()}
+      onData: -> console.log("data changed")
     )
 
 

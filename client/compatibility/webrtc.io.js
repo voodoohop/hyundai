@@ -353,18 +353,13 @@ if (navigator.webkitGetUserMedia) {
 
 
   rtc.createStream = function(opt, onSuccess, onFail) {
-    var options;
     onSuccess = onSuccess || function() {};
     onFail = onFail || function() {};
 
-    options = {
-      video: opt.video,
-      audio: opt.audio
-    };
 
     if (getUserMedia) {
       rtc.numStreams++;
-      getUserMedia.call(navigator, options, function(stream) {
+      getUserMedia.call(navigator, opt, function(stream) {
         rtc.streams.push(stream);
         rtc.initializedStreams++;
         onSuccess(stream);

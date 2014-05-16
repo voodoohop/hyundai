@@ -2,16 +2,43 @@
 
 videoPlayer = null
 
+unloadVideo = ->
+  console.log("unloading video",videoPlayer?.src)
+  $(videoPlayer)?.removeAttr("src")
+  videoPlayer?.load()
+
+videoUpdateComputation = null
 Template.mediaDisplay.rendered = ->
   console.log("hyundai rendered",this)
   videoPlayer = this.find("#hyundai_vid")
 
   Meteor.videoPlayer = videoPlayer
-  Deps.autorun ->
-    getCurrentPlayingMedia()
-    Meteor.setTimeout( ->
-      videoPlayer.play()
-    ,500)
+
+  #trick to change video unloading previous one
+  lastMediaId = null
+  videoUpdateComputation = Deps.autorun ->
+    media = Router.current().data()?.media
+    console.log("current media", media)
+    return unless media
+    mediaId = media._id
+    if mediaId != lastMediaId
+      console.log("media changed src mediaId", videoPlayer.src,mediaId)
+      unloadVideo()
+      Meteor.setTimeout( ->
+        lastMediaId = mediaId
+        console.log("loading and playing",mediaId)
+        $(videoPlayer).attr("src",media.url())
+        videoPlayer.load()
+      ,100)
+
+
+window.onbeforeunload = ->
+    unloadVideo()
+
+Template.mediaDisplay.destroyed = ->
+  console.log("mediaDisplay destroyed",this)
+  videoUpdateComputation?.stop()
+  unloadVideo()
 
 Template.mediaDisplay.backgroundImage = ->
   return null unless this.media.backgroundImage
@@ -45,16 +72,9 @@ Template.mediaDisplay.cameraStyle = ->
 
 
 nextMediaWithVideoUnload = ->
-  $(videoPlayer).prop("src",false)
-  #$(nextVideoPlayer).prop("src",false)
-  videoPlayer.src=false
-  videoPlayer.load()
-  #nextVideoPlayer.load()
+  unloadVideo()
   Meteor.setTimeout( ->
     nextMedia()
-    Meteor.setTimeout( ->
-      videoPlayer.play()
-    ,100)
   ,100)
 
 nextMediaDebounced = _.debounce( ->
@@ -66,7 +86,7 @@ Template.mediaDisplay.events
   "ended #hyundai_vid": (e,tmplInst) ->
     console.log("ended",this,tmplInst)
     unless this.isRemote
-      nextMediaWithVideoUnload()
+      nextMedia()
       #Session.set("videosPlayed",Session.get("videosPlayed")+1)
 
   "loadeddata #hyundai_vid": () ->
@@ -77,13 +97,15 @@ Template.mediaDisplay.events
     unless (m.mediaWidth == size.mediaWidth and m.mediaHeight==size.mediaHeigth)
       media.update(m._id, {$set: size})
     console.log("loaded video data")
+    videoPlayer.play()
+
+
   "timeupdate #hyundai_vid": (event,tmplInstance) ->
     #if !this.loopMedia and event.target.currentTime > 1
     #  event.target.pause()
     #  nextMediaDebounced()
       #Session.set("videosPlayed",Session.get("videosPlayed")+1)
 
-    thata = this
     if (this.media.usePhoto)
       time = event.target.currentTime
       if (time > this.media.photoSeconds)

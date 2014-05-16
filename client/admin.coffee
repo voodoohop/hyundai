@@ -32,9 +32,15 @@ Template.imageuploader.events
     insertImageFromEvent(event)
 
 Template.cameraAdmin.events
-  "click .full_height_check": ->
-    setState("camera", {fullHeight: !getState("camera")?.fullHeight})
+  "change .full_height_check": ->
+    console.log("fulheightchange")
+    setSt ate("camera", {fullHeight: !getState("camera")?.fullHeight})
+  "change .primaryCamSelector": (e)->
+    setState("camera", {selectedPrimaryCam: e.target.value})
 
+
+Template.cameraAdmin.selectedPrimaryCam = (selected) ->
+  selected == getState("camera").selectedPrimaryCam
 Template.contentList.events
   "click .playbtn": (event) ->
     console.log(this)
@@ -49,8 +55,6 @@ Template.contentList.events
     media.update(this._id, {$set:{isAlpha: !this.isAlpha}})
   "change .use_photo": ->
     media.update(this._id, {$set:{usePhoto: !this.usePhoto}})
-  "change .alpha_check": ->
-    media.update(this._id, {$set:{isAlpha: !this.isAlpha}})
   "change .full_height_check": ->
     media.update(this._id, {$set:{fullHeight: !this.fullHeight}})
 

@@ -7,7 +7,7 @@ if (Meteor.isClient)
   rtc.connect('ws://'+location.hostname+':8011','hyundai');
 
   previousStream = null
-  @startStreamingWebcam = (element = null, callback = null) ->
+  @startStreamingWebcam = (element = null, camId = null, callback = null) ->
     if previousStream?
       rtc.attachStream(previousStream,element) if element
       callback?(element, previousStream)
@@ -17,6 +17,7 @@ if (Meteor.isClient)
         mandatory:
           minWidth: 1280
           minHeight: 720
+          sourceId: camId
     , (stream) ->
       rtc.attachStream(stream,element) if element
       previousStream = stream

@@ -54,6 +54,13 @@
     {{#if state "camera.enabled"}}
     <span class="badge"><span class="fui-video"></span></span>
     {{/if}}
+    <label>Primary Cam:<select class="form-control primaryCamSelector" style="width: 150px; display: inline-block;">
+      <option>none</option>
+      {{#each state "camera.sources"}}
+      <option value="{{this.id}}" selected="{{selectedPrimaryCam this.id}}">{{this.id}}</option>
+      {{/each}}
+    </select>
+   </label>
   <div class="btn-group btn-group-sm">
     <button type="button" class="btn btn-default cameraEnableButton">
       {{#if state "camera.enabled"}}
@@ -68,7 +75,7 @@
 
   </div>
     <label class="checkbox"  style="display: inline-block">
-      <input type="checkbox" value="" checked="{{fullHeight}}" class="full_height_check" data-toggle="checkbox"/>
+      <input type="checkbox" value="" checked="{{state "camera.fullHeight"}}" class="full_height_check" data-toggle="checkbox"/>
       Auto Size
     </label>
 
