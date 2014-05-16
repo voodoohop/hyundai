@@ -2,13 +2,13 @@
 
 
 @media = new FS.Collection("media",
-  stores: [new FS.Store.FileSystem("media")] #, {path: ". /media_hyundai"})]
-  #stores: [new FS.Store.GridFS("media")]
+  #stores: [new FS.Store.FileSystem("media")] #, {path: ". /media_hyundai"})]
+  stores: [new FS.Store.GridFS("media")]
 )
 
 @bgImages = new FS.Collection("bgimages",
-  stores: [new FS.Store.FileSystem("bgimages")]
-  #stores: [new FS.Store.GridFS("bgimages")]
+  #stores: [new FS.Store.FileSystem("bgimages")]
+  stores: [new FS.Store.GridFS("bgimages")]
 )
 
 
