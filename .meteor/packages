@@ -14,3 +14,4 @@ ui-dropped-event
 npm
 streams
 cfs-gridfs
+fsCache

@@ -8,28 +8,17 @@ unloadVideo = ->
   videoPlayer?.load()
 
 videoUpdateComputation = null
+
+lastMediaId = null
+
 Template.mediaDisplay.rendered = ->
   console.log("hyundai rendered",this)
   videoPlayer = this.find("#hyundai_vid")
-
+  lastMediaId = null
+  loadVideo(this.data.media)
   Meteor.videoPlayer = videoPlayer
 
   #trick to change video unloading previous one
-  lastMediaId = null
-  videoUpdateComputation = Deps.autorun ->
-    media = Router.current().data()?.media
-    console.log("current media", media)
-    return unless media
-    mediaId = media._id
-    if mediaId != lastMediaId
-      console.log("media changed src mediaId", videoPlayer.src,mediaId)
-      unloadVideo()
-      Meteor.setTimeout( ->
-        lastMediaId = mediaId
-        console.log("loading and playing",mediaId)
-        $(videoPlayer).attr("src",media.url())
-        videoPlayer.load()
-      ,100)
 
 
 window.onbeforeunload = ->
@@ -37,8 +26,30 @@ window.onbeforeunload = ->
 
 Template.mediaDisplay.destroyed = ->
   console.log("mediaDisplay destroyed",this)
-  videoUpdateComputation?.stop()
   unloadVideo()
+  lastMediaId = null
+
+loadVideo = (media) ->
+  return null unless videoPlayer
+  console.log("current media", media)
+  return unless media
+  mediaId = media._id
+  if mediaId != lastMediaId
+    lastMediaId = mediaId
+    console.log("media changed src mediaId", videoPlayer.src,mediaId)
+    unloadVideo()
+    Meteor.setTimeout( ->
+      console.log("loading and playing",mediaId)
+      Meteor.FSCache(media.url()).then( (cachedURL) ->
+        console.log("got cached url:"+cachedURL)
+        $(videoPlayer).attr("src",cachedURL)
+        videoPlayer.load()
+      )
+    ,100)
+
+Template.mediaDisplay.reactiveVideoUpdater = ->
+  loadVideo(this.media)
+  return null
 
 Template.mediaDisplay.backgroundImage = ->
   return null unless this.media.backgroundImage
